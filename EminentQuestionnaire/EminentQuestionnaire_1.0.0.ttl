@@ -1,0 +1,504 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ema: <http://eminent.intnet.eu/maturity_assessment#> .
+@prefix emm: <http://eminent.intnet.eu/maturity_model#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+ema:003b79cb-f328-eb1b-b862-90a00c21a602 a ema:Question ;
+    ema:measures emm:CommunityGrowth_peopleandorganization ;
+    ema:phrasing """1.1.o: Considering the <span style="text-decoration: underline;">people and organization</span> dimension of <strong>Community Growth</strong>, which description best fits the situation in your interoperability community?<br><br>Examples for organization for community growth are:<br>
+<ul>
+<li>Individuals or teams/working groups are tasked with growing the community.</li>
+<li>There is interaction between this group and the rest of the community to discuss where extra contribution is needed.</li>
+<li>Trainings are available for how to reach out to potential new members.</li>
+</ul>"""^^rdf:HTML ;
+    ema:question_type "Multiple Choice"@en ;
+    dcterms:identifier "1.1.o" ;
+    dcterms:isPartOf ema:89146514-1776-4ad0-b72b-3d5a2359134a .
+
+ema:0a0bc334-bed1-d2ab-934d-cdfcd5c54c50 a ema:Question ;
+    ema:measures emm:UserBaseGrowth_peopleandorganization ;
+    ema:phrasing """3.1.o: Considering the <span style="text-decoration: underline;">people and organization dimension</span> of <strong>User Base Growth</strong>, which description best fits the situation in your interoperability community?<br><br>Examples of people and organization to support user base growth:<br>
+<ul>
+<li>Consultants and vendors are part of the community.</li>
+<li>The community has a culture where all kinds of members advocate for both the standards as well as the different solutions that have been developed.</li>
+</ul>"""^^rdf:HTML ;
+    ema:question_type "Multiple Choice"@en ;
+    dcterms:identifier "3.1.o" ;
+    dcterms:isPartOf ema:89146514-1776-4ad0-b72b-3d5a2359134a .
+
+ema:0f6dfb1f-3f40-b12e-be9b-bc39f709785a a ema:Question ;
+    ema:measures emm:KnowledgeRetention_process ;
+    ema:phrasing """1.2.p: Considering the<span style="text-decoration: underline;"> process dimension</span> of <strong>Knowledge Retention</strong>, which description best fits the situation in your interoperability community?<br><br>Examples of processes for knowledge retention include:<br>
+<ul>
+<li>Onboarding and debriefing/exit processes.</li>
+<li>Processes for education and training of the problems/technologies/solutions the community aims to address.</li>
+</ul>"""^^rdf:HTML ;
+    ema:question_type "Multiple Choice"@en ;
+    dcterms:identifier "1.2.p" ;
+    dcterms:isPartOf ema:89146514-1776-4ad0-b72b-3d5a2359134a .
+
+ema:11816273-4bd7-4afc-cd72-8806d0770e8b a ema:Question ;
+    ema:measures emm:MarketCreation_resources ;
+    ema:phrasing """3.4.r: Considering the <span style="text-decoration: underline;">resources dimension</span> of <strong>Market Creation</strong>, which description best fits the situation in your interoperability community?<br><br>Examples of resources that support market creation include:<br>
+<ul>
+<li>Investments in marketing</li>
+<li>Regular conferences on the subject with vendor participation/showcases</li>
+</ul>"""^^rdf:HTML ;
+    ema:question_type "Multiple Choice"@en ;
+    dcterms:identifier "3.4.r" ;
+    dcterms:isPartOf ema:89146514-1776-4ad0-b72b-3d5a2359134a .
+
+ema:18a59f86-f8c9-05c4-b63f-f2b858739f70 a ema:Question ;
+    ema:measures emm:DiversityofPerspectives_process ;
+    ema:phrasing """1.3.p: Considering the <span style="text-decoration: underline;">process dimension</span> of <strong>Diversity of Perspectives</strong>, which description best fits the situation in your interoperability community?<br><br>Examples of processes for diversity of perspectives include:<br>
+<ul>
+<li>Regular evaluation whether the active community properly represents the stakeholders and related activities to correct if necessary.</li>
+<li>Regular evaluation if the active community is appropriately diverse regarding relevant expertise (covering the SGAM framework for instance) and related activities to correct if necessary.</li>
+<li>Regular evaluation if the active community is appropriately diverse regarding age, gender, ethnicity etcetera. and related activities to correct if necessary.</li>
+</ul>"""^^rdf:HTML ;
+    ema:question_type "Multiple Choice"@en ;
+    dcterms:identifier "1.3.p" ;
+    dcterms:isPartOf ema:89146514-1776-4ad0-b72b-3d5a2359134a .
+
+ema:1d856148-30ae-c626-57a7-2ec96b48e5dc a ema:Question ;
+    ema:measures emm:DiversityofPerspectives_peopleandorganization ;
+    ema:phrasing """1.3.o: Considering the<span style="text-decoration: underline;"> people and organization dimension</span> of <strong>Diversity of Perspectives</strong>, which description best fits the situation in your interoperability community?<br><br>Examples for people and organization to support a diversity of perspectives include:<br>
+<ul>
+<li>The community has a culture where it (as a community) and its members evaluate themselves on the match of their perspective and skillset to the challenges the community aims to address.</li>
+<li>The community has a culture where outside perspective is welcomed or even sought.</li>
+<li>The community has a culture of openness and acceptance towards new ideas.</li>
+<li>Community leadership understands the importance of a diversity of perspectives and takes this into consideration in its strategy and decision making.</li>
+</ul>"""^^rdf:HTML ;
+    ema:question_type "Multiple Choice"@en ;
+    dcterms:identifier "1.3.o" ;
+    dcterms:isPartOf ema:89146514-1776-4ad0-b72b-3d5a2359134a .
+
+ema:1ecc4b9e-0476-9d94-c518-5f15f896e0d4 a ema:Question ;
+    ema:measures emm:UserBaseGrowth_process ;
+    ema:phrasing "3.1.p: Considering the <span style=\"text-decoration: underline;\">process dimension</span> of <strong>User Base Growth</strong>, which description best fits the situation in your interoperability community?<br><br>Examples of processes for user base growth include:<br> Processes for outreach. Processes for demo-ing."^^rdf:HTML ;
+    ema:question_type "Multiple Choice"@en ;
+    dcterms:identifier "3.1.p" ;
+    dcterms:isPartOf ema:89146514-1776-4ad0-b72b-3d5a2359134a .
+
+ema:366c6cd4-04e6-fb06-16f5-6310cd47a59b a ema:Question ;
+    ema:measures emm:ComplianceTesting_process ;
+    ema:phrasing """2.3.p: Considering the <span style="text-decoration: underline;">process dimension</span> of <strong>Compliance Testing</strong>, which description best fits the situation in your interoperability community?<br><br>Examples of processes for compliance testing include:<br>
+<ul>
+<li>Testing procedures.</li>
+<li>Quality control processes of the testing procedures.</li>
+<li>Processes for communicating results.</li>
+<li>Processes for handling objections/disagreements.</li>
+</ul>"""^^rdf:HTML ;
+    ema:question_type "Multiple Choice"@en ;
+    dcterms:identifier "2.3.p" ;
+    dcterms:isPartOf ema:89146514-1776-4ad0-b72b-3d5a2359134a .
+
+ema:3ba5ecb8-71e1-91ab-59f2-ce294eee61dc a ema:Question ;
+    ema:measures emm:ComplianceTesting_Information ;
+    ema:phrasing """2.3.i: Considering the<span style="text-decoration: underline;"> Information dimension</span> of <strong>Compliance Testing,</strong> which description best fits the situation in your interoperability community?<br><br>Examples of information to support compliance testing includes:<br>
+<ul>
+<li>Documented testing procedures.</li>
+<li>(historical) Testing data and results.</li>
+<li>Registry of certified testing facilities.</li>
+</ul>"""^^rdf:HTML ;
+    ema:question_type "Multiple Choice"@en ;
+    dcterms:identifier "2.3.i" ;
+    dcterms:isPartOf ema:89146514-1776-4ad0-b72b-3d5a2359134a .
+
+ema:40bd6f27-e8f5-6dde-7426-4042eb8719b7 a ema:Question ;
+    ema:measures emm:IntegrationProfileEstablishment_process ;
+    ema:phrasing """2.1.p: Considering the <span style="text-decoration: underline;">process dimension</span> of <strong>Integration Profile Establishment</strong>, which description best fits the situation in your interoperability community?<br><br>Examples of processes for integration profile establishment include:<br>
+<ul>
+<li>Backlog and prioritization processes.</li>
+<li>Escalation processes to resolve disagreements.</li>
+<li>Processes to define deliverables.</li>
+<li>Review processes.</li>
+<li>External feedback processes.</li>
+</ul>"""^^rdf:HTML ;
+    ema:question_type "Multiple Choice"@en ;
+    dcterms:identifier "2.1.p" ;
+    dcterms:isPartOf ema:89146514-1776-4ad0-b72b-3d5a2359134a .
+
+ema:433856bb-a58b-3a1e-0fe9-4a3b54a1076b a ema:Question ;
+    ema:measures emm:ComplianceTesting_resources ;
+    ema:phrasing """2.3.r: Considering the<span style="text-decoration: underline;"> resources dimension</span> of <strong>Compliance Testing</strong>, which description best fits the situation in your interoperability community?<br><br>Examples of resources that support compliance testing:<br>
+<ul>
+<li>Available investments for testing.</li>
+<li>Available testing labs (physical and/or digital).</li>
+</ul>"""^^rdf:HTML ;
+    ema:question_type "Multiple Choice"@en ;
+    dcterms:identifier "2.3.r" ;
+    dcterms:isPartOf ema:89146514-1776-4ad0-b72b-3d5a2359134a .
+
+ema:5005a479-40ce-dbb8-c906-b2ea4c96624c a ema:Question ;
+    ema:measures emm:DiversityofPerspectives_resources ;
+    ema:phrasing """1.3.r: Considering the <span style="text-decoration: underline;">resources dimension</span> of <strong>Diversity of Perspectives</strong>, which description best fits the situation in your interoperability community?<br><br>Examples of resources for diversity of perspectives include:<br>
+<ul>
+<li>Budget to bring in underrepresented perspectives.</li>
+<li>Budget for members of the community to work on this matter.</li>
+<li>Budget for outside consulting on this subject.</li>
+</ul>"""^^rdf:HTML ;
+    ema:question_type "Multiple Choice"@en ;
+    dcterms:identifier "1.3.r" ;
+    dcterms:isPartOf ema:89146514-1776-4ad0-b72b-3d5a2359134a .
+
+ema:52ac82ad-2b2e-5453-cc5d-607a5de21846 a ema:Question ;
+    ema:measures emm:ToolProductandReferenceImplementationDevelopment_process ;
+    ema:phrasing """3.3.p: Considering the <span style="text-decoration: underline;">process dimension</span> of <strong>Tool, Product and Reference Implementation Development</strong>, which description best fits the situation in your interoperability community?<br><br>Examples of processes that support Tool, Product and Reference implementation development include:<br>
+<ul>
+<li>Software/product development processes</li>
+<li>Interoperability testing processes</li>
+</ul>"""^^rdf:HTML ;
+    ema:question_type "Multiple Choice"@en ;
+    dcterms:identifier "3.3.p" ;
+    dcterms:isPartOf ema:89146514-1776-4ad0-b72b-3d5a2359134a .
+
+ema:575511d2-f0cf-6885-1218-d7064dc25b31 a ema:Question ;
+    ema:measures emm:Standardization_resources ;
+    ema:phrasing """2.2.r: Considering the <span style="text-decoration: underline;">resources dimension</span> of <strong>Standardization</strong>, which description best fits the situation in your interoperability community?<br><br>Examples of resources for standardization include:<br>
+<ul>
+<li>Budget to create standards.</li>
+<li>File sharing environments.</li>
+<li>Version control systems.</li>
+<li>Issue management systems.</li>
+<li>Publication platforms.</li>
+</ul>"""^^rdf:HTML ;
+    ema:question_type "Multiple Choice"@en ;
+    dcterms:identifier "2.2.r" ;
+    dcterms:isPartOf ema:89146514-1776-4ad0-b72b-3d5a2359134a .
+
+ema:5d8279ed-c94d-5118-20c0-9ca39717d60a a ema:Question ;
+    ema:measures emm:OperationalAlignment_resources ;
+    ema:phrasing """3.2.r: Considering the <span style="text-decoration: underline;">resources dimension</span> of <strong>Operational Alignment</strong>, which description best fits the situation in your interoperability community?<br><br>Examples of resources to support operational alignment include: <br>
+<ul>
+<li>Resources/funding to create agreements among parties.</li>
+<li>Resources/funding to audit compliance.</li>
+</ul>"""^^rdf:HTML ;
+    ema:question_type "Multiple Choice"@en ;
+    dcterms:identifier "3.2.r" ;
+    dcterms:isPartOf ema:89146514-1776-4ad0-b72b-3d5a2359134a .
+
+ema:619d9713-706e-c382-3ba7-6fa142ec136c a ema:Question ;
+    ema:measures emm:CommunityGrowth_process ;
+    ema:phrasing """1.1.p: Considering the <span style="text-decoration: underline;">processes</span> dimension of <strong>Community Growth</strong>, which description best fits the situation in your interoperability community?<br><br>Examples of processes for community growth can be: <br>
+<ul>
+<li>Processes for outreach to potential new participants</li>
+<li>There is a social media outreach plan</li>
+<li>Processes to onboard new participants and help them get started.</li>
+</ul>"""^^rdf:HTML ;
+    ema:question_type "Multiple Choice"@en ;
+    dcterms:identifier "1.1.p" ;
+    dcterms:isPartOf ema:89146514-1776-4ad0-b72b-3d5a2359134a .
+
+ema:643530c7-c984-cac1-4791-f8b4bc897df3 a ema:Question ;
+    ema:measures emm:MarketCreation_peopleandorganization ;
+    ema:phrasing """3.4.o: Considering the <span style="text-decoration: underline;">people and organization dimension</span> of <strong>Market Creation</strong>, which description best fits the situation in your interoperability community?<br><br>Examples of people and organization that supports market creation include:<br>
+<ul>
+<li>Some members of the community have or provide marketing expertise.</li>
+<li>There is a culture of understanding that work done, services provided and/or tools delivered needs to be. compensated, even if the source material is open source.</li>
+<li>There is a culture that balances collaboration with competition.</li>
+<li>Vendor forums.</li>
+</ul>"""^^rdf:HTML ;
+    ema:question_type "Multiple Choice"@en ;
+    dcterms:identifier "3.4.o" ;
+    dcterms:isPartOf ema:89146514-1776-4ad0-b72b-3d5a2359134a .
+
+ema:6bd66ecf-755c-6e1b-f6cb-8f01d5564032 a ema:Question ;
+    ema:measures emm:ToolProductandReferenceImplementationDevelopment_Information ;
+    ema:phrasing """3.3.i: Considering the <span style="text-decoration: underline;">Information dimension</span> of <strong>Tool, Product and Reference Implementation Developmen</strong>t, which description best fits the situation in your interoperability community?<br><br>Information to support Tool, Product and Reference Implementation Development include (note, that some of this may be proprietary/only available within community member organizations):<br>
+<ul>
+<li>Standard documents</li>
+<li>(reference) Architectures</li>
+<li>Existing designs/blueprints/code bases</li>
+</ul>"""^^rdf:HTML ;
+    ema:question_type "Multiple Choice"@en ;
+    dcterms:identifier "3.3.i" ;
+    dcterms:isPartOf ema:89146514-1776-4ad0-b72b-3d5a2359134a .
+
+ema:707474ba-460b-b3f0-2e7f-f91542b5ad84 a ema:Question ;
+    ema:measures emm:KnowledgeRetention_Information ;
+    ema:phrasing """1.2.i: Considering the <span style="text-decoration: underline;">Information dimension</span> of <strong>Knowledge Retention</strong>, which description best fits the situation in your interoperability community?<br><br>Examples of information for knowledge retention include:<br>
+<ul>
+<li>Documents related to the subject of the community are organized in a catalog/library for easy access and findability.</li>
+<li>Documented succession plans.</li>
+<li>Documented (historical) design decisions.</li>
+<li>Documented strategies and roadmaps.</li>
+</ul>"""^^rdf:HTML ;
+    ema:question_type "Multiple Choice"@en ;
+    dcterms:identifier "1.2.i" ;
+    dcterms:isPartOf ema:89146514-1776-4ad0-b72b-3d5a2359134a .
+
+ema:71f6067e-3c57-8729-89dc-7e9324671021 a ema:Question ;
+    ema:measures emm:MarketCreation_process ;
+    ema:phrasing """3.4.p: Considering the <span style="text-decoration: underline;">process dimension</span> of <strong>Market Creation</strong>, which description best fits the situation in your interoperability community?<br><br>Examples of processes to support market creation involve:<br>
+<ul>
+<li>Lobbying efforts to secure subsidies</li>
+<li>Activities to bring vendors and/or consultants into the community</li>
+<li>Outreach efforts that focus on how to make a viable business case the problem space that is addressed by the interoperability efforts.</li>
+</ul>"""^^rdf:HTML ;
+    ema:question_type "Multiple Choice"@en ;
+    dcterms:identifier "3.4.p" ;
+    dcterms:isPartOf ema:89146514-1776-4ad0-b72b-3d5a2359134a .
+
+ema:7d52c284-2657-0b82-492b-e661688f42e1 a ema:Question ;
+    ema:measures emm:OperationalAlignment_process ;
+    ema:phrasing """3.2.p: Considering the <span style="text-decoration: underline;">process dimension</span> of <strong>Operational Alignment</strong>, which description best fits the situation in your interoperability community?<br><br>Examples of processes that support operational alignment include:<br>
+<ul>
+<li>Processes to establish agreements.</li>
+<li>Processes to update/modify agreements.</li>
+<li>Processes to audit compliance to the agreements.</li>
+<li>Processes to resolve failure of compliance to the agreements.</li>
+</ul>"""^^rdf:HTML ;
+    ema:question_type "Multiple Choice"@en ;
+    dcterms:identifier "3.2.p" ;
+    dcterms:isPartOf ema:89146514-1776-4ad0-b72b-3d5a2359134a .
+
+ema:7f0862ca-5dd4-a107-d6ba-3c17b26de347 a ema:Question ;
+    ema:measures emm:ComplianceTesting_peopleandorganization ;
+    ema:phrasing """2.3.o: Considering the <span style="text-decoration: underline;">people and organization dimension</span> of <strong>Compliance Testing</strong>, which description best fits the situation in your interoperability community?<br><br>Examples of people and organization to support compliance testing include:<br>
+<ul>
+<li>Testing facilities (businesses/organizations) are part of the community.</li>
+<li>Training/education on testing is available.</li>
+<li>Interoperability testing/connectathon events are regularly held.</li>
+</ul>"""^^rdf:HTML ;
+    ema:question_type "Multiple Choice"@en ;
+    dcterms:identifier "2.3.o" ;
+    dcterms:isPartOf ema:89146514-1776-4ad0-b72b-3d5a2359134a .
+
+ema:7f5068ec-bce4-025f-1529-c6bb4c689782 a ema:Question ;
+    ema:measures emm:Standardization_Information ;
+    ema:phrasing """2.2.i: Considering the <span style="text-decoration: underline;">Information dimension</span> of <strong>Standardization</strong>, which description best fits the situation in your interoperability community?<br><br>Examples of information that supports standardization include:<br>
+<ul>
+<li>Backlog.</li>
+<li>Library of finished deliverables.</li>
+<li>Integration profiles.</li>
+<li>Architectural models of the problem space.</li>
+<li>Earlier versions of the standards.</li>
+<li>Use-case and problem descriptions.</li>
+</ul>"""^^rdf:HTML ;
+    ema:question_type "Multiple Choice"@en ;
+    dcterms:identifier "2.2.i" ;
+    dcterms:isPartOf ema:89146514-1776-4ad0-b72b-3d5a2359134a .
+
+ema:850e904a-76a1-e872-281a-3d8442b1ed8d a ema:Question ;
+    ema:measures emm:MarketCreation_Information ;
+    ema:phrasing """3.4.i: Considering the <span style="text-decoration: underline;">Information dimension</span> of <strong>Market Creation</strong>, which description best fits the situation in your interoperability community?<br><br>Examples of information that supports market creation includes:<br>
+<ul>
+<li>Documented/shared business cases (examples).</li>
+<li>Overviews of potential vendors.</li>
+<li>Overviews of potential customers.</li>
+<li>Overview of use cases that have not been developed yet/that have no solution yet.</li>
+</ul>"""^^rdf:HTML ;
+    ema:question_type "Multiple Choice"@en ;
+    dcterms:identifier "3.4.i" ;
+    dcterms:isPartOf ema:89146514-1776-4ad0-b72b-3d5a2359134a .
+
+ema:9fdbb80d-2c0a-32df-3691-3c60b23a460b a ema:Question ;
+    ema:measures emm:CommunityGrowth_resources ;
+    ema:phrasing """1.1.r: Considering the <span style="text-decoration: underline;">resources dimension</span> of <strong>Community Growth</strong>, which description best fits the situation in your interoperability community?<br><br>Examples of resources to support community growth include:<br>
+<ul>
+<li>Budget for community growth activities, such as out reach, conference participation etcetera</li>
+<li>Applications that allow for managing information related to community growth</li>
+<li>Marketing materials/branding.</li>
+</ul>"""^^rdf:HTML ;
+    ema:question_type "Multiple Choice"@en ;
+    dcterms:identifier "1.1.r" ;
+    dcterms:isPartOf ema:89146514-1776-4ad0-b72b-3d5a2359134a .
+
+ema:Unsure skos:definition "Default response that should be given when the respondent does not know the answer to a question" .
+
+ema:a53fdbd5-e05a-c784-4244-f82f705b5444 a ema:Question ;
+    ema:measures emm:ToolProductandReferenceImplementationDevelopment_peopleandorganization ;
+    ema:phrasing """3.3.o: Considering the <span style="text-decoration: underline;">people and organization dimension</span> of <strong>Tool, Product and Reference Implementation Development</strong>, which description best fits the situation in your interoperability community?<br><br>Examples of people and organization that support tool. product and reference implementation development include :<br>
+<ul>
+<li>Members of the community that specialize in tool development (vendors, consultants)</li>
+<li>Domain experts including software developers, manufacturing experts, architects/lead designers</li>
+<li>Project management support</li>
+<li>Education/training programs to educate participants in how to contribute to development</li>
+</ul>"""^^rdf:HTML ;
+    ema:question_type "Multiple Choice"@en ;
+    dcterms:identifier "3.3.o" ;
+    dcterms:isPartOf ema:89146514-1776-4ad0-b72b-3d5a2359134a .
+
+ema:aaa2be06-3abe-72ae-3c76-7ff8aaeac7d8 a ema:Question ;
+    ema:measures emm:OperationalAlignment_Information ;
+    ema:phrasing """3.2.i: Considering the <span style="text-decoration: underline;">Information dimension</span> of <strong>Operational Alignment,</strong> which description best fits the situation in your interoperability community?<br><br>Examples of information that supports operational alignment includes: <br>
+<ul>
+<li>Documentation of agreements (policies).</li>
+<li>Documentation of roles and responsibilities.</li>
+<li>Documentation of processes.</li>
+<li>Compliance audit records.</li>
+</ul>"""^^rdf:HTML ;
+    ema:question_type "Multiple Choice"@en ;
+    dcterms:identifier "3.2.i" ;
+    dcterms:isPartOf ema:89146514-1776-4ad0-b72b-3d5a2359134a .
+
+ema:b2f65531-8d1c-947e-4499-bf6882f51066 a ema:Question ;
+    ema:measures emm:ToolProductandReferenceImplementationDevelopment_resources ;
+    ema:phrasing """3.3.r: Considering the <span style="text-decoration: underline;">resources dimension</span> of <strong>Tool, Product and Reference Implementation Development</strong>, which description best fits the situation in your interoperability community?<br><br>Examples of resources that support Tool, Product and Reference Implementation Development include:<br>
+<ul>
+<li>Investments made by customers into new product development.</li>
+<li>Investments made by vendors into new product development</li>
+<li>Subsidies for new product development</li>
+<li>Software development environments/manufacturing workshops</li>
+</ul>"""^^rdf:HTML ;
+    ema:question_type "Multiple Choice"@en ;
+    dcterms:identifier "3.3.r" ;
+    dcterms:isPartOf ema:89146514-1776-4ad0-b72b-3d5a2359134a .
+
+ema:b4c46c0b-6081-d15f-c3b4-1f168101dc7d a ema:Question ;
+    ema:measures emm:Standardization_process ;
+    ema:phrasing """2.2.p: Considering the <span style="text-decoration: underline;">process dimension</span> of <strong>Standardization</strong>, which description best fits the situation in your interoperability community?<br><br>Examples of processes for standardization include:<br>
+<ul>
+<li>Backlog and prioritization processes.</li>
+<li>Escalation processes to resolve disagreements.</li>
+<li>Processes to define deliverables.</li>
+<li>Review processes.</li>
+<li>External feedback processes.</li>
+</ul>"""^^rdf:HTML ;
+    ema:question_type "Multiple Choice"@en ;
+    dcterms:identifier "2.2.p" ;
+    dcterms:isPartOf ema:89146514-1776-4ad0-b72b-3d5a2359134a .
+
+ema:b58df7f7-e4da-cab6-c0b5-b2d870a2c870 a ema:Question ;
+    ema:measures emm:IntegrationProfileEstablishment_Information ;
+    ema:phrasing """2.1.i: Considering the <span style="text-decoration: underline;">Information dimension</span> of<strong> Integration Profile Establishment,</strong> which description best fits the situation in your interoperability community?<br><br>Examples of information that supports integration profile establishment include:<br>
+<ul>
+<li>Backlog.</li>
+<li>Library of finished deliverables.</li>
+<li>Architectural models of the problem space.</li>
+<li>Earlier versions the integration profiles.</li>
+<li>Use-case and problem descriptions.</li>
+<li>Information on the regulatory and market contexts.</li>
+</ul>"""^^rdf:HTML ;
+    ema:question_type "Multiple Choice"@en ;
+    dcterms:identifier "2.1.i" ;
+    dcterms:isPartOf ema:89146514-1776-4ad0-b72b-3d5a2359134a .
+
+ema:b9b32ff9-6bf7-6d7c-cc1b-7205d118ce36 a ema:Question ;
+    ema:measures emm:KnowledgeRetention_resources ;
+    ema:phrasing """1.2.r: Considering the <span style="text-decoration: underline;">resources dimension</span> of <strong>Knowledge Retention</strong>, which description best fits the situation in your interoperability community?<br><br>Examples of resources for knowledge retention include:<br>
+<ul>
+<li>Available budget for knowledge transfer.</li>
+<li>Applications/infrastructure for file sharing.</li>
+</ul>"""^^rdf:HTML ;
+    ema:question_type "Multiple Choice"@en ;
+    dcterms:identifier "1.2.r" ;
+    dcterms:isPartOf ema:89146514-1776-4ad0-b72b-3d5a2359134a .
+
+ema:c1ab4933-5dc6-7701-6351-29d6822d9f11 a ema:Question ;
+    ema:measures emm:IntegrationProfileEstablishment_peopleandorganization ;
+    ema:phrasing """2.1.o: Considering the <span style="text-decoration: underline;">people and organization dimension</span> of <strong>Integration Profile Establishment</strong>, which description best fits the situation in your interoperability community?<br><br>Examples of People and organization to support profile establishment include:<br>
+<ul>
+<li>Domain experts.</li>
+<li>Project management support.</li>
+<li>Education/training programs to educate participants in how to properly form an integration profile.</li>
+</ul>"""^^rdf:HTML ;
+    ema:question_type "Multiple Choice"@en ;
+    dcterms:identifier "2.1.o" ;
+    dcterms:isPartOf ema:89146514-1776-4ad0-b72b-3d5a2359134a .
+
+ema:c89aef48-8a2a-7570-b080-a72fbf28c3f7 a ema:Question ;
+    ema:measures emm:IntegrationProfileEstablishment_resources ;
+    ema:phrasing """2.1.r: Considering the <span style="text-decoration: underline;">resources dimension</span> of <strong>Integration Profile Establishment</strong>, which description best fits the situation in your interoperability community?<br><br>Examples of resources for integration profile establishment include:<br>
+<ul>
+<li>Budget to create profiles.</li>
+<li>File sharing environments.</li>
+<li>Version control systems.</li>
+<li>Publication platforms.</li>
+</ul>"""^^rdf:HTML ;
+    ema:question_type "Multiple Choice"@en ;
+    dcterms:identifier "2.1.r" ;
+    dcterms:isPartOf ema:89146514-1776-4ad0-b72b-3d5a2359134a .
+
+ema:ccbc2961-4fa5-12fd-5f7b-85079c2cd008 a ema:Question ;
+    ema:measures emm:DiversityofPerspectives_Information ;
+    ema:phrasing """1.3.i: Considering the <span style="text-decoration: underline;">Information dimension</span> of <strong>Diversity of Perspectives</strong>, which description best fits the situation in your interoperability community?<br><br>Examples of information that supports a diversity of perspectives include:<br>
+<ul>
+<li>Overview of the desired composition of the community (in terms of perspective, skillset etc.).</li>
+<li>Overview of the composition of the existing community (in terms of perspective, skillset etc.).</li>
+</ul>"""^^rdf:HTML ;
+    ema:question_type "Multiple Choice"@en ;
+    dcterms:identifier "1.3.i" ;
+    dcterms:isPartOf ema:89146514-1776-4ad0-b72b-3d5a2359134a .
+
+ema:d88ec0c6-85f0-239e-e5fa-1abcf3da400a a ema:Question ;
+    ema:measures emm:OperationalAlignment_peopleandorganization ;
+    ema:phrasing """3.2.o: Considering the <span style="text-decoration: underline;">people and organization dimension</span> of <strong>Operational Alignment</strong>, which description best fits the situation in your interoperability community?<br><br>Examples of people and organization to support organizational alignment include:<br>
+<ul>
+<li>Policy and compliance experts.</li>
+<li>Coordination bodies to create and evaluate agreements.</li>
+</ul>"""^^rdf:HTML ;
+    ema:question_type "Multiple Choice"@en ;
+    dcterms:identifier "3.2.o" ;
+    dcterms:isPartOf ema:89146514-1776-4ad0-b72b-3d5a2359134a .
+
+ema:db98bace-e849-2709-6d08-39c36791a0e6 a ema:Question ;
+    ema:measures emm:Standardization_peopleandorganization ;
+    ema:phrasing """2.2.o: Considering the <span style="text-decoration: underline;">people and organization dimension</span> of <strong>Standardization</strong>, which description best fits the situation in your interoperability community?<br><br>Examples of people and organization to support standardization include:<br>
+<ul>
+<li>Domain experts.</li>
+<li>Project management support.</li>
+<li>Education/training programs to educate participants in how to properly produce standards.</li>
+</ul>"""^^rdf:HTML ;
+    ema:question_type "Multiple Choice"@en ;
+    dcterms:identifier "2.2.o" ;
+    dcterms:isPartOf ema:89146514-1776-4ad0-b72b-3d5a2359134a .
+
+ema:dcdbb4c8-6a98-3932-13c4-7459d982c940 a ema:Question ;
+    ema:measures emm:UserBaseGrowth_Information ;
+    ema:phrasing """3.1.i: Considering the<span style="text-decoration: underline;"> Information dimension</span> of <strong>User Base Growth</strong>, which description best fits the situation in your interoperability community?<br><br>Examples of information to support user base growth:<br>
+<ul>
+<li>Documented successful implementations or other success stories.</li>
+<li>Overview of organizations that have adopted the standards or products/solutions that are based on the standard.</li>
+<li>Overview of organizations/businesses/people who might be interested in adopting the standards or solutions that rely on it.</li>
+</ul>"""^^rdf:HTML ;
+    ema:question_type "Multiple Choice"@en ;
+    dcterms:identifier "3.1.i" ;
+    dcterms:isPartOf ema:89146514-1776-4ad0-b72b-3d5a2359134a .
+
+ema:e331722f-5bd4-4b43-2415-08fe691fdcaa a ema:Question ;
+    ema:measures emm:KnowledgeRetention_peopleandorganization ;
+    ema:phrasing """1.2.o: Considering the <span style="text-decoration: underline;">people and organization dimension</span> of <strong>Knowledge Retention</strong>, which description best fits the situation in your interoperability community?<br><br>Examples of people and organization for knowledge retention include:<br>
+<ul>
+<li>Individuals or teams/working groups are tasked with the efforts related to knowledge retention like training/education of the community.</li>
+<li>The community has a culture of sharing information and insights through (regular) meetings or mentorship programs.</li>
+</ul>"""^^rdf:HTML ;
+    ema:question_type "Multiple Choice"@en ;
+    dcterms:identifier "1.2.o" ;
+    dcterms:isPartOf ema:89146514-1776-4ad0-b72b-3d5a2359134a .
+
+ema:e33dceb9-9f08-4178-43d4-05f48083c73c a ema:Question ;
+    ema:measures emm:UserBaseGrowth_resources ;
+    ema:phrasing """3.1.r: Considering the <span style="text-decoration: underline;">resources dimension</span> of <strong>User Base Growth</strong>, which description best fits the situation in your interoperability community?<br><br>Examples of resources that support user base growth include:<br>
+<ul>
+<li>Marketing materials/branding.</li>
+<li>Budget for community user base growth activities, such as out reach, conference participation, on-site demo's etcetera.</li>
+<li>Applications that allow for managing information related to community growth.</li>
+</ul>"""^^rdf:HTML ;
+    ema:question_type "Multiple Choice"@en ;
+    dcterms:identifier "3.1.r" ;
+    dcterms:isPartOf ema:89146514-1776-4ad0-b72b-3d5a2359134a .
+
+ema:e4b0274b-8669-ec21-6cb0-5c6be1547cfa a ema:Question ;
+    ema:measures emm:CommunityGrowth_Information ;
+    ema:phrasing """1.1.i: Considering the <span style="text-decoration: underline;">Information dimension</span> of <strong>Community Growth</strong>, which description best fits the situation in your interoperability community?<br><br>Examples of information to support community growth are:<br>
+<ul>
+<li>Mailing lists for potential new members</li>
+<li>Promotional materials, slide decks</li>
+<li>List(s) of (potential) community engagements</li>
+<li>Records of previous engagements with potential future members</li>
+<li>Org-chart of the existing community</li>
+</ul>"""^^rdf:HTML ;
+    ema:question_type "Multiple Choice"@en ;
+    dcterms:identifier "1.1.i" ;
+    dcterms:isPartOf ema:89146514-1776-4ad0-b72b-3d5a2359134a .
+
+ema:89146514-1776-4ad0-b72b-3d5a2359134a a ema:QuestionnaireVersion ;
+    dcterms:identifier "698159" ;
+    dcterms:isVersionOf ema:Eminent ;
+    owl:versionInfo "1.0.0" ;
+    skos:prefLabel "Eminent" .
+

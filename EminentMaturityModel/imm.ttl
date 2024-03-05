@@ -1,0 +1,1655 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix emm: <http://eminent.intnet.eu/maturity_model#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+emm:CommunityGrowth_Information_0 a emm:Characterisitic ;
+    emm:maturityScore 0 ;
+    dcterms:isPartOf emm:CommunityGrowth_Information ;
+    rdfs:isDefinedBy emm: ;
+    skos:definition "Data/information to support Community Growth does not exist." .
+
+emm:CommunityGrowth_Information_1 a emm:Characterisitic ;
+    emm:maturityScore 1 ;
+    dcterms:isPartOf emm:CommunityGrowth_Information ;
+    rdfs:isDefinedBy emm: ;
+    skos:definition "Information to support Community Growth is unavailable, unknown, incomplete, incorrect, inconsistent, and not exploited. Minimal descriptive reporting and analytics are performed manually, not used for decision making." .
+
+emm:CommunityGrowth_Information_2 a emm:Characterisitic ;
+    emm:maturityScore 2 ;
+    dcterms:isPartOf emm:CommunityGrowth_Information ;
+    rdfs:isDefinedBy emm: ;
+    skos:definition "Information to support Community Growth is available in silos, hard to locate for others." .
+
+emm:CommunityGrowth_Information_3 a emm:Characterisitic ;
+    emm:maturityScore 3 ;
+    dcterms:isPartOf emm:CommunityGrowth_Information ;
+    rdfs:isDefinedBy emm: ;
+    skos:definition "Information governance defines how information for Community Growth is collected, stored, understood, accessed, owned, and deleted." .
+
+emm:CommunityGrowth_Information_4 a emm:Characterisitic ;
+    emm:maturityScore 4 ;
+    dcterms:isPartOf emm:CommunityGrowth_Information ;
+    rdfs:isDefinedBy emm: ;
+    skos:definition "Information for Community Growth is available and well understood across the community and externally. Information quality is measured and corrected." .
+
+emm:CommunityGrowth_Information_5 a emm:Characterisitic ;
+    emm:maturityScore 5 ;
+    dcterms:isPartOf emm:CommunityGrowth_Information ;
+    rdfs:isDefinedBy emm: ;
+    skos:definition "New information for Community Growth is continuously identified and benchmarked." .
+
+emm:CommunityGrowth_peopleandorganization_0 a emm:Characterisitic ;
+    emm:maturityScore 0 ;
+    dcterms:isPartOf emm:CommunityGrowth_peopleandorganization ;
+    rdfs:isDefinedBy emm: ;
+    skos:definition "There is no organization for Community Growth." .
+
+emm:CommunityGrowth_peopleandorganization_1 a emm:Characterisitic ;
+    emm:maturityScore 1 ;
+    dcterms:isPartOf emm:CommunityGrowth_peopleandorganization ;
+    rdfs:isDefinedBy emm: ;
+    skos:definition "Community members have a weak understanding of how for Community Growth with limited skills, training, and poorly defined roles. The community has not allocated community members/working groups for Community Growth." .
+
+emm:CommunityGrowth_peopleandorganization_2 a emm:Characterisitic ;
+    emm:maturityScore 2 ;
+    dcterms:isPartOf emm:CommunityGrowth_peopleandorganization ;
+    rdfs:isDefinedBy emm: ;
+    skos:definition "Community members have some skills for Community Growth but may be lacking experience or training. Inconsistent roles and responsibilities." .
+
+emm:CommunityGrowth_peopleandorganization_3 a emm:Characterisitic ;
+    emm:maturityScore 3 ;
+    dcterms:isPartOf emm:CommunityGrowth_peopleandorganization ;
+    rdfs:isDefinedBy emm: ;
+    skos:definition "Community members have good skills, experience and available training is in place to help Community Growth. Roles and responsibilities are defined and assigned to members/working groups." .
+
+emm:CommunityGrowth_peopleandorganization_4 a emm:Characterisitic ;
+    emm:maturityScore 4 ;
+    dcterms:isPartOf emm:CommunityGrowth_peopleandorganization ;
+    rdfs:isDefinedBy emm: ;
+    skos:definition "Community members have clear roles and responsibilities, have suitable training and are adequately staffed for Community Growth . Members proactively identify people and organizational improvements and have succession plans in place." .
+
+emm:CommunityGrowth_peopleandorganization_5 a emm:Characterisitic ;
+    emm:maturityScore 5 ;
+    dcterms:isPartOf emm:CommunityGrowth_peopleandorganization ;
+    rdfs:isDefinedBy emm: ;
+    skos:definition "Community members have an expert and deeply contextualized understanding of Community Growth and are working in a culture that supports and actively embraces continuous improvement, benchmarking and innovation." .
+
+emm:CommunityGrowth_process_0 a emm:Characterisitic ;
+    emm:maturityScore 0 ;
+    dcterms:isPartOf emm:CommunityGrowth_process ;
+    rdfs:isDefinedBy emm: ;
+    skos:definition "There are no processes for Community Growth." .
+
+emm:CommunityGrowth_process_1 a emm:Characterisitic ;
+    emm:maturityScore 1 ;
+    dcterms:isPartOf emm:CommunityGrowth_process ;
+    rdfs:isDefinedBy emm: ;
+    skos:definition "Little to no process documentation, -governance, or -ownership for Community Growth. Progress on Community Growth is based on individual’s knowledge, manual interventions and with unpredictable results." .
+
+emm:CommunityGrowth_process_2 a emm:Characterisitic ;
+    emm:maturityScore 2 ;
+    dcterms:isPartOf emm:CommunityGrowth_process ;
+    rdfs:isDefinedBy emm: ;
+    skos:definition "Key processes for Community Growth are identified and documented locally. Responsibilities and handoff are poorly understood, and results are inconsistent." .
+
+emm:CommunityGrowth_process_3 a emm:Characterisitic ;
+    emm:maturityScore 3 ;
+    dcterms:isPartOf emm:CommunityGrowth_process ;
+    rdfs:isDefinedBy emm: ;
+    skos:definition "Key processes for Community Growth are documented community wide, ownership is defined, and handoff points established. There is inconsistent adoption, execution, and results." .
+
+emm:CommunityGrowth_process_4 a emm:Characterisitic ;
+    emm:maturityScore 4 ;
+    dcterms:isPartOf emm:CommunityGrowth_process ;
+    rdfs:isDefinedBy emm: ;
+    skos:definition "Processes for Community Growth are defined, understood, reliable, standardized, efficient, measured and adopted community wide with consistent results." .
+
+emm:CommunityGrowth_process_5 a emm:Characterisitic ;
+    emm:maturityScore 5 ;
+    dcterms:isPartOf emm:CommunityGrowth_process ;
+    rdfs:isDefinedBy emm: ;
+    skos:definition "Processes for Community Growth are continuously reviewed, benchmarked and improved resulting in industry-leading practices and results." .
+
+emm:CommunityGrowth_resources_0 a emm:Characterisitic ;
+    emm:maturityScore 0 ;
+    dcterms:isPartOf emm:CommunityGrowth_resources ;
+    rdfs:isDefinedBy emm: ;
+    skos:definition "There are no resources available for Community Growth . Inivdiduals who do participate in Community Growth do so voluntarily in their own time." .
+
+emm:CommunityGrowth_resources_1 a emm:Characterisitic ;
+    emm:maturityScore 1 ;
+    dcterms:isPartOf emm:CommunityGrowth_resources ;
+    rdfs:isDefinedBy emm: ;
+    skos:definition "Few, if any,  resources, including budget, are assigned for Community Growth. Some participating individuals receive resources from the organizations they represent." .
+
+emm:CommunityGrowth_resources_2 a emm:Characterisitic ;
+    emm:maturityScore 2 ;
+    dcterms:isPartOf emm:CommunityGrowth_resources ;
+    rdfs:isDefinedBy emm: ;
+    skos:definition "Some  resources are identified for Community Growth, but additional requirements are not part of investment decisions. Some participating individuals receive resources from the organizations they represent." .
+
+emm:CommunityGrowth_resources_3 a emm:Characterisitic ;
+    emm:maturityScore 3 ;
+    dcterms:isPartOf emm:CommunityGrowth_resources ;
+    rdfs:isDefinedBy emm: ;
+    skos:definition "Community Growth's relationship to resources is defined and requirements are part of the investment planning process. Most individuals performing work for Community Growth are compensated for their effort by the organization they represent." .
+
+emm:CommunityGrowth_resources_4 a emm:Characterisitic ;
+    emm:maturityScore 4 ;
+    dcterms:isPartOf emm:CommunityGrowth_resources ;
+    rdfs:isDefinedBy emm: ;
+    skos:definition "New resources are made available to increase the maturity of  Community Growth. Most work done for Community Growth is compensated." .
+
+emm:CommunityGrowth_resources_5 a emm:Characterisitic ;
+    emm:maturityScore 5 ;
+    dcterms:isPartOf emm:CommunityGrowth_resources ;
+    rdfs:isDefinedBy emm: ;
+    skos:definition "New resources and other innovations that can improve Community Growth are investigated, benchmarked, proven, and deployed. All work done towards Community Growth is compensated." .
+
+emm:ComplianceTesting_Information_0 a emm:Characterisitic ;
+    emm:maturityScore 0 ;
+    dcterms:isPartOf emm:ComplianceTesting_Information ;
+    rdfs:isDefinedBy emm: ;
+    skos:definition "Data/information to support Compliance Testing does not exist." .
+
+emm:ComplianceTesting_Information_1 a emm:Characterisitic ;
+    emm:maturityScore 1 ;
+    dcterms:isPartOf emm:ComplianceTesting_Information ;
+    rdfs:isDefinedBy emm: ;
+    skos:definition "Information to support Compliance Testing is unavailable, unknown, incomplete, incorrect, inconsistent, and not exploited. Minimal descriptive reporting and analytics are performed manually, not used for decision making." .
+
+emm:ComplianceTesting_Information_2 a emm:Characterisitic ;
+    emm:maturityScore 2 ;
+    dcterms:isPartOf emm:ComplianceTesting_Information ;
+    rdfs:isDefinedBy emm: ;
+    skos:definition "Information to support Compliance Testing is available in silos, hard to locate for others." .
+
+emm:ComplianceTesting_Information_3 a emm:Characterisitic ;
+    emm:maturityScore 3 ;
+    dcterms:isPartOf emm:ComplianceTesting_Information ;
+    rdfs:isDefinedBy emm: ;
+    skos:definition "Information governance defines how information for Compliance Testing is collected, stored, understood, accessed, owned, and deleted." .
+
+emm:ComplianceTesting_Information_4 a emm:Characterisitic ;
+    emm:maturityScore 4 ;
+    dcterms:isPartOf emm:ComplianceTesting_Information ;
+    rdfs:isDefinedBy emm: ;
+    skos:definition "Information for Compliance Testing  is available and well understood across the community and externally. Information quality is measured and corrected." .
+
+emm:ComplianceTesting_Information_5 a emm:Characterisitic ;
+    emm:maturityScore 5 ;
+    dcterms:isPartOf emm:ComplianceTesting_Information ;
+    rdfs:isDefinedBy emm: ;
+    skos:definition "New information for Compliance Testing  is continuously identified and benchmarked." .
+
+emm:ComplianceTesting_peopleandorganization_0 a emm:Characterisitic ;
+    emm:maturityScore 0 ;
+    dcterms:isPartOf emm:ComplianceTesting_peopleandorganization ;
+    rdfs:isDefinedBy emm: ;
+    skos:definition "There is no organization for Compliance Testing." .
+
+emm:ComplianceTesting_peopleandorganization_1 a emm:Characterisitic ;
+    emm:maturityScore 1 ;
+    dcterms:isPartOf emm:ComplianceTesting_peopleandorganization ;
+    rdfs:isDefinedBy emm: ;
+    skos:definition "Community members have a weak understanding of how for Compliance Testing with limited skills, training, and poorly defined roles. The community has not allocated community members/working groups for Compliance Testing." .
+
+emm:ComplianceTesting_peopleandorganization_2 a emm:Characterisitic ;
+    emm:maturityScore 2 ;
+    dcterms:isPartOf emm:ComplianceTesting_peopleandorganization ;
+    rdfs:isDefinedBy emm: ;
+    skos:definition "Community members have some skills for Compliance Testing but may be lacking experience or training. Inconsistent roles and responsibilities." .
+
+emm:ComplianceTesting_peopleandorganization_3 a emm:Characterisitic ;
+    emm:maturityScore 3 ;
+    dcterms:isPartOf emm:ComplianceTesting_peopleandorganization ;
+    rdfs:isDefinedBy emm: ;
+    skos:definition "Community members have good skills, experience and available training is in place to help Compliance Testing. Roles and responsibilities are defined and assigned to members/working groups." .
+
+emm:ComplianceTesting_peopleandorganization_4 a emm:Characterisitic ;
+    emm:maturityScore 4 ;
+    dcterms:isPartOf emm:ComplianceTesting_peopleandorganization ;
+    rdfs:isDefinedBy emm: ;
+    skos:definition "Community members have clear roles and responsibilities, have suitable training and are adequately staffed for Compliance Testing . Members proactively identify people and organizational improvements and have succession plans in place." .
+
+emm:ComplianceTesting_peopleandorganization_5 a emm:Characterisitic ;
+    emm:maturityScore 5 ;
+    dcterms:isPartOf emm:ComplianceTesting_peopleandorganization ;
+    rdfs:isDefinedBy emm: ;
+    skos:definition "Community members have an expert and deeply contextualized understanding of Compliance Testing and are working in a culture that supports and actively embraces continuous improvement, benchmarking and innovation." .
+
+emm:ComplianceTesting_process_0 a emm:Characterisitic ;
+    emm:maturityScore 0 ;
+    dcterms:isPartOf emm:ComplianceTesting_process ;
+    rdfs:isDefinedBy emm: ;
+    skos:definition "There are no processes for Compliance Testing." .
+
+emm:ComplianceTesting_process_1 a emm:Characterisitic ;
+    emm:maturityScore 1 ;
+    dcterms:isPartOf emm:ComplianceTesting_process ;
+    rdfs:isDefinedBy emm: ;
+    skos:definition "Little to no process documentation, -governance, or -ownership for Compliance Testing. Progress on Compliance Testing is based on individual’s knowledge, manual interventions and with unpredictable results." .
+
+emm:ComplianceTesting_process_2 a emm:Characterisitic ;
+    emm:maturityScore 2 ;
+    dcterms:isPartOf emm:ComplianceTesting_process ;
+    rdfs:isDefinedBy emm: ;
+    skos:definition "Key processes for Compliance Testing  are identified and documented locally. Responsibilities and handoff are poorly understood, and results are inconsistent." .
+
+emm:ComplianceTesting_process_3 a emm:Characterisitic ;
+    emm:maturityScore 3 ;
+    dcterms:isPartOf emm:ComplianceTesting_process ;
+    rdfs:isDefinedBy emm: ;
+    skos:definition "Key processes for Compliance Testing are documented community wide, ownership is defined, and handoff points established. There is inconsistent adoption, execution, and results." .
+
+emm:ComplianceTesting_process_4 a emm:Characterisitic ;
+    emm:maturityScore 4 ;
+    dcterms:isPartOf emm:ComplianceTesting_process ;
+    rdfs:isDefinedBy emm: ;
+    skos:definition "Processes for Compliance Testing are defined, understood, reliable, standardized, efficient, measured and adopted community wide with consistent results." .
+
+emm:ComplianceTesting_process_5 a emm:Characterisitic ;
+    emm:maturityScore 5 ;
+    dcterms:isPartOf emm:ComplianceTesting_process ;
+    rdfs:isDefinedBy emm: ;
+    skos:definition "Processes for Compliance Testing  are continuously reviewed, benchmarked and improved resulting in industry-leading practices and results." .
+
+emm:ComplianceTesting_resources_0 a emm:Characterisitic ;
+    emm:maturityScore 0 ;
+    dcterms:isPartOf emm:ComplianceTesting_resources ;
+    rdfs:isDefinedBy emm: ;
+    skos:definition "There are no resources available for Compliance Testing . Inivdiduals who do participate in Compliance Testing do so voluntarily in their own time." .
+
+emm:ComplianceTesting_resources_1 a emm:Characterisitic ;
+    emm:maturityScore 1 ;
+    dcterms:isPartOf emm:ComplianceTesting_resources ;
+    rdfs:isDefinedBy emm: ;
+    skos:definition "Few, if any,  resources, including budget, are assigned for Compliance Testing. Some participating individuals receive resources from the organizations they represent." .
+
+emm:ComplianceTesting_resources_2 a emm:Characterisitic ;
+    emm:maturityScore 2 ;
+    dcterms:isPartOf emm:ComplianceTesting_resources ;
+    rdfs:isDefinedBy emm: ;
+    skos:definition "Some  resources are identified for Compliance Testing, but additional requirements are not part of investment decisions. Some participating individuals receive resources from the organizations they represent." .
+
+emm:ComplianceTesting_resources_3 a emm:Characterisitic ;
+    emm:maturityScore 3 ;
+    dcterms:isPartOf emm:ComplianceTesting_resources ;
+    rdfs:isDefinedBy emm: ;
+    skos:definition "Compliance Testing's relationship to resources is defined and requirements are part of the investment planning process. Most individuals performing work for Compliance Testing are compensated for their effort by the organization they represent." .
+
+emm:ComplianceTesting_resources_4 a emm:Characterisitic ;
+    emm:maturityScore 4 ;
+    dcterms:isPartOf emm:ComplianceTesting_resources ;
+    rdfs:isDefinedBy emm: ;
+    skos:definition "New resources are made available to increase the maturity of  Compliance Testing. Most work done for Compliance Testing is compensated." .
+
+emm:ComplianceTesting_resources_5 a emm:Characterisitic ;
+    emm:maturityScore 5 ;
+    dcterms:isPartOf emm:ComplianceTesting_resources ;
+    rdfs:isDefinedBy emm: ;
+    skos:definition "New resources and other innovations that can improve Compliance Testing are investigated, benchmarked, proven, and deployed. All work done towards Compliance Testing is compensated." .
+
+emm:DiversityofPerspectives_Information_0 a emm:Characterisitic ;
+    emm:maturityScore 0 ;
+    dcterms:isPartOf emm:DiversityofPerspectives_Information ;
+    rdfs:isDefinedBy emm: ;
+    skos:definition "Data/information to support Diversity of Perspectives does not exist." .
+
+emm:DiversityofPerspectives_Information_1 a emm:Characterisitic ;
+    emm:maturityScore 1 ;
+    dcterms:isPartOf emm:DiversityofPerspectives_Information ;
+    rdfs:isDefinedBy emm: ;
+    skos:definition "Information to support Diversity of Perspectives is unavailable, unknown, incomplete, incorrect, inconsistent, and not exploited. Minimal descriptive reporting and analytics are performed manually, not used for decision making." .
+
+emm:DiversityofPerspectives_Information_2 a emm:Characterisitic ;
+    emm:maturityScore 2 ;
+    dcterms:isPartOf emm:DiversityofPerspectives_Information ;
+    rdfs:isDefinedBy emm: ;
+    skos:definition "Information to support Diversity of Perspectives is available in silos, hard to locate for others." .
+
+emm:DiversityofPerspectives_Information_3 a emm:Characterisitic ;
+    emm:maturityScore 3 ;
+    dcterms:isPartOf emm:DiversityofPerspectives_Information ;
+    rdfs:isDefinedBy emm: ;
+    skos:definition "Information governance defines how information for Diversity of Perspectives is collected, stored, understood, accessed, owned, and deleted." .
+
+emm:DiversityofPerspectives_Information_4 a emm:Characterisitic ;
+    emm:maturityScore 4 ;
+    dcterms:isPartOf emm:DiversityofPerspectives_Information ;
+    rdfs:isDefinedBy emm: ;
+    skos:definition "Information for Diversity of Perspectives  is available and well understood across the community and externally. Information quality is measured and corrected." .
+
+emm:DiversityofPerspectives_Information_5 a emm:Characterisitic ;
+    emm:maturityScore 5 ;
+    dcterms:isPartOf emm:DiversityofPerspectives_Information ;
+    rdfs:isDefinedBy emm: ;
+    skos:definition "New information for Diversity of Perspectives  is continuously identified and benchmarked." .
+
+emm:DiversityofPerspectives_peopleandorganization_0 a emm:Characterisitic ;
+    emm:maturityScore 0 ;
+    dcterms:isPartOf emm:DiversityofPerspectives_peopleandorganization ;
+    rdfs:isDefinedBy emm: ;
+    skos:definition "There is no organization for Diversity of Perspectives." .
+
+emm:DiversityofPerspectives_peopleandorganization_1 a emm:Characterisitic ;
+    emm:maturityScore 1 ;
+    dcterms:isPartOf emm:DiversityofPerspectives_peopleandorganization ;
+    rdfs:isDefinedBy emm: ;
+    skos:definition "Community members have a weak understanding of how for Diversity of Perspectives with limited skills, training, and poorly defined roles. The community has not allocated community members/working groups for Diversity of Perspectives." .
+
+emm:DiversityofPerspectives_peopleandorganization_2 a emm:Characterisitic ;
+    emm:maturityScore 2 ;
+    dcterms:isPartOf emm:DiversityofPerspectives_peopleandorganization ;
+    rdfs:isDefinedBy emm: ;
+    skos:definition "Community members have some skills for Diversity of Perspectives but may be lacking experience or training. Inconsistent roles and responsibilities." .
+
+emm:DiversityofPerspectives_peopleandorganization_3 a emm:Characterisitic ;
+    emm:maturityScore 3 ;
+    dcterms:isPartOf emm:DiversityofPerspectives_peopleandorganization ;
+    rdfs:isDefinedBy emm: ;
+    skos:definition "Community members have good skills, experience and available training is in place to help Diversity of Perspectives. Roles and responsibilities are defined and assigned to members/working groups." .
+
+emm:DiversityofPerspectives_peopleandorganization_4 a emm:Characterisitic ;
+    emm:maturityScore 4 ;
+    dcterms:isPartOf emm:DiversityofPerspectives_peopleandorganization ;
+    rdfs:isDefinedBy emm: ;
+    skos:definition "Community members have clear roles and responsibilities, have suitable training and are adequately staffed for Diversity of Perspectives . Members proactively identify people and organizational improvements and have succession plans in place." .
+
+emm:DiversityofPerspectives_peopleandorganization_5 a emm:Characterisitic ;
+    emm:maturityScore 5 ;
+    dcterms:isPartOf emm:DiversityofPerspectives_peopleandorganization ;
+    rdfs:isDefinedBy emm: ;
+    skos:definition "Community members have an expert and deeply contextualized understanding of Diversity of Perspectives and are working in a culture that supports and actively embraces continuous improvement, benchmarking and innovation." .
+
+emm:DiversityofPerspectives_process_0 a emm:Characterisitic ;
+    emm:maturityScore 0 ;
+    dcterms:isPartOf emm:DiversityofPerspectives_process ;
+    rdfs:isDefinedBy emm: ;
+    skos:definition "There are no processes for Diversity of Perspectives." .
+
+emm:DiversityofPerspectives_process_1 a emm:Characterisitic ;
+    emm:maturityScore 1 ;
+    dcterms:isPartOf emm:DiversityofPerspectives_process ;
+    rdfs:isDefinedBy emm: ;
+    skos:definition "Little to no process documentation, -governance, or -ownership for Diversity of Perspectives. Progress on Diversity of Perspectives is based on individual’s knowledge, manual interventions and with unpredictable results." .
+
+emm:DiversityofPerspectives_process_2 a emm:Characterisitic ;
+    emm:maturityScore 2 ;
+    dcterms:isPartOf emm:DiversityofPerspectives_process ;
+    rdfs:isDefinedBy emm: ;
+    skos:definition "Key processes for Diversity of Perspectives  are identified and documented locally. Responsibilities and handoff are poorly understood, and results are inconsistent." .
+
+emm:DiversityofPerspectives_process_3 a emm:Characterisitic ;
+    emm:maturityScore 3 ;
+    dcterms:isPartOf emm:DiversityofPerspectives_process ;
+    rdfs:isDefinedBy emm: ;
+    skos:definition "Key processes for Diversity of Perspectives are documented community wide, ownership is defined, and handoff points established. There is inconsistent adoption, execution, and results." .
+
+emm:DiversityofPerspectives_process_4 a emm:Characterisitic ;
+    emm:maturityScore 4 ;
+    dcterms:isPartOf emm:DiversityofPerspectives_process ;
+    rdfs:isDefinedBy emm: ;
+    skos:definition "Processes for Diversity of Perspectives are defined, understood, reliable, standardized, efficient, measured and adopted community wide with consistent results." .
+
+emm:DiversityofPerspectives_process_5 a emm:Characterisitic ;
+    emm:maturityScore 5 ;
+    dcterms:isPartOf emm:DiversityofPerspectives_process ;
+    rdfs:isDefinedBy emm: ;
+    skos:definition "Processes for Diversity of Perspectives  are continuously reviewed, benchmarked and improved resulting in industry-leading practices and results." .
+
+emm:DiversityofPerspectives_resources_0 a emm:Characterisitic ;
+    emm:maturityScore 0 ;
+    dcterms:isPartOf emm:DiversityofPerspectives_resources ;
+    rdfs:isDefinedBy emm: ;
+    skos:definition "There are no resources available for Diversity of Perspectives . Inivdiduals who do participate in Diversity of Perspectives do so voluntarily in their own time." .
+
+emm:DiversityofPerspectives_resources_1 a emm:Characterisitic ;
+    emm:maturityScore 1 ;
+    dcterms:isPartOf emm:DiversityofPerspectives_resources ;
+    rdfs:isDefinedBy emm: ;
+    skos:definition "Few, if any,  resources, including budget, are assigned for Diversity of Perspectives. Some participating individuals receive resources from the organizations they represent." .
+
+emm:DiversityofPerspectives_resources_2 a emm:Characterisitic ;
+    emm:maturityScore 2 ;
+    dcterms:isPartOf emm:DiversityofPerspectives_resources ;
+    rdfs:isDefinedBy emm: ;
+    skos:definition "Some  resources are identified for Diversity of Perspectives, but additional requirements are not part of investment decisions. Some participating individuals receive resources from the organizations they represent." .
+
+emm:DiversityofPerspectives_resources_3 a emm:Characterisitic ;
+    emm:maturityScore 3 ;
+    dcterms:isPartOf emm:DiversityofPerspectives_resources ;
+    rdfs:isDefinedBy emm: ;
+    skos:definition "Diversity of Perspectives's relationship to resources is defined and requirements are part of the investment planning process. Most individuals performing work for Diversity of Perspectives are compensated for their effort by the organization they represent." .
+
+emm:DiversityofPerspectives_resources_4 a emm:Characterisitic ;
+    emm:maturityScore 4 ;
+    dcterms:isPartOf emm:DiversityofPerspectives_resources ;
+    rdfs:isDefinedBy emm: ;
+    skos:definition "New resources are made available to increase the maturity of  Diversity of Perspectives. Most work done for Diversity of Perspectives is compensated." .
+
+emm:DiversityofPerspectives_resources_5 a emm:Characterisitic ;
+    emm:maturityScore 5 ;
+    dcterms:isPartOf emm:DiversityofPerspectives_resources ;
+    rdfs:isDefinedBy emm: ;
+    skos:definition "New resources and other innovations that can improve Diversity of Perspectives are investigated, benchmarked, proven, and deployed. All work done towards Diversity of Perspectives is compensated." .
+
+emm:IntegrationProfileEstablishment_Information_0 a emm:Characterisitic ;
+    emm:maturityScore 0 ;
+    dcterms:isPartOf emm:IntegrationProfileEstablishment_Information ;
+    rdfs:isDefinedBy emm: ;
+    skos:definition "Data/information to support Integration Profile Establishment does not exist." .
+
+emm:IntegrationProfileEstablishment_Information_1 a emm:Characterisitic ;
+    emm:maturityScore 1 ;
+    dcterms:isPartOf emm:IntegrationProfileEstablishment_Information ;
+    rdfs:isDefinedBy emm: ;
+    skos:definition "Information to support Integration Profile Establishment is unavailable, unknown, incomplete, incorrect, inconsistent, and not exploited. Minimal descriptive reporting and analytics are performed manually, not used for decision making." .
+
+emm:IntegrationProfileEstablishment_Information_2 a emm:Characterisitic ;
+    emm:maturityScore 2 ;
+    dcterms:isPartOf emm:IntegrationProfileEstablishment_Information ;
+    rdfs:isDefinedBy emm: ;
+    skos:definition "Information to support Integration Profile Establishment is available in silos, hard to locate for others." .
+
+emm:IntegrationProfileEstablishment_Information_3 a emm:Characterisitic ;
+    emm:maturityScore 3 ;
+    dcterms:isPartOf emm:IntegrationProfileEstablishment_Information ;
+    rdfs:isDefinedBy emm: ;
+    skos:definition "Information governance defines how information for Integration Profile Establishment is collected, stored, understood, accessed, owned, and deleted." .
+
+emm:IntegrationProfileEstablishment_Information_4 a emm:Characterisitic ;
+    emm:maturityScore 4 ;
+    dcterms:isPartOf emm:IntegrationProfileEstablishment_Information ;
+    rdfs:isDefinedBy emm: ;
+    skos:definition "Information for Integration Profile Establishment  is available and well understood across the community and externally. Information quality is measured and corrected." .
+
+emm:IntegrationProfileEstablishment_Information_5 a emm:Characterisitic ;
+    emm:maturityScore 5 ;
+    dcterms:isPartOf emm:IntegrationProfileEstablishment_Information ;
+    rdfs:isDefinedBy emm: ;
+    skos:definition "New information for Integration Profile Establishment  is continuously identified and benchmarked." .
+
+emm:IntegrationProfileEstablishment_peopleandorganization_0 a emm:Characterisitic ;
+    emm:maturityScore 0 ;
+    dcterms:isPartOf emm:IntegrationProfileEstablishment_peopleandorganization ;
+    rdfs:isDefinedBy emm: ;
+    skos:definition "There is no organization for Integration Profile Establishment." .
+
+emm:IntegrationProfileEstablishment_peopleandorganization_1 a emm:Characterisitic ;
+    emm:maturityScore 1 ;
+    dcterms:isPartOf emm:IntegrationProfileEstablishment_peopleandorganization ;
+    rdfs:isDefinedBy emm: ;
+    skos:definition "Community members have a weak understanding of how for Integration Profile Establishment with limited skills, training, and poorly defined roles. The community has not allocated community members/working groups for Integration Profile Establishment." .
+
+emm:IntegrationProfileEstablishment_peopleandorganization_2 a emm:Characterisitic ;
+    emm:maturityScore 2 ;
+    dcterms:isPartOf emm:IntegrationProfileEstablishment_peopleandorganization ;
+    rdfs:isDefinedBy emm: ;
+    skos:definition "Community members have some skills for Integration Profile Establishment but may be lacking experience or training. Inconsistent roles and responsibilities." .
+
+emm:IntegrationProfileEstablishment_peopleandorganization_3 a emm:Characterisitic ;
+    emm:maturityScore 3 ;
+    dcterms:isPartOf emm:IntegrationProfileEstablishment_peopleandorganization ;
+    rdfs:isDefinedBy emm: ;
+    skos:definition "Community members have good skills, experience and available training is in place to help Integration Profile Establishment. Roles and responsibilities are defined and assigned to members/working groups." .
+
+emm:IntegrationProfileEstablishment_peopleandorganization_4 a emm:Characterisitic ;
+    emm:maturityScore 4 ;
+    dcterms:isPartOf emm:IntegrationProfileEstablishment_peopleandorganization ;
+    rdfs:isDefinedBy emm: ;
+    skos:definition "Community members have clear roles and responsibilities, have suitable training and are adequately staffed for Integration Profile Establishment . Members proactively identify people and organizational improvements and have succession plans in place." .
+
+emm:IntegrationProfileEstablishment_peopleandorganization_5 a emm:Characterisitic ;
+    emm:maturityScore 5 ;
+    dcterms:isPartOf emm:IntegrationProfileEstablishment_peopleandorganization ;
+    rdfs:isDefinedBy emm: ;
+    skos:definition "Community members have an expert and deeply contextualized understanding of Integration Profile Establishment and are working in a culture that supports and actively embraces continuous improvement, benchmarking and innovation." .
+
+emm:IntegrationProfileEstablishment_process_0 a emm:Characterisitic ;
+    emm:maturityScore 0 ;
+    dcterms:isPartOf emm:IntegrationProfileEstablishment_process ;
+    rdfs:isDefinedBy emm: ;
+    skos:definition "There are no processes for Integration Profile Establishment." .
+
+emm:IntegrationProfileEstablishment_process_1 a emm:Characterisitic ;
+    emm:maturityScore 1 ;
+    dcterms:isPartOf emm:IntegrationProfileEstablishment_process ;
+    rdfs:isDefinedBy emm: ;
+    skos:definition "Little to no process documentation, -governance, or -ownership for Integration Profile Establishment. Progress on Integration Profile Establishment is based on individual’s knowledge, manual interventions and with unpredictable results." .
+
+emm:IntegrationProfileEstablishment_process_2 a emm:Characterisitic ;
+    emm:maturityScore 2 ;
+    dcterms:isPartOf emm:IntegrationProfileEstablishment_process ;
+    rdfs:isDefinedBy emm: ;
+    skos:definition "Key processes for Integration Profile Establishment  are identified and documented locally. Responsibilities and handoff are poorly understood, and results are inconsistent." .
+
+emm:IntegrationProfileEstablishment_process_3 a emm:Characterisitic ;
+    emm:maturityScore 3 ;
+    dcterms:isPartOf emm:IntegrationProfileEstablishment_process ;
+    rdfs:isDefinedBy emm: ;
+    skos:definition "Key processes for Integration Profile Establishment are documented community wide, ownership is defined, and handoff points established. There is inconsistent adoption, execution, and results." .
+
+emm:IntegrationProfileEstablishment_process_4 a emm:Characterisitic ;
+    emm:maturityScore 4 ;
+    dcterms:isPartOf emm:IntegrationProfileEstablishment_process ;
+    rdfs:isDefinedBy emm: ;
+    skos:definition "Processes for Integration Profile Establishment are defined, understood, reliable, standardized, efficient, measured and adopted community wide with consistent results." .
+
+emm:IntegrationProfileEstablishment_process_5 a emm:Characterisitic ;
+    emm:maturityScore 5 ;
+    dcterms:isPartOf emm:IntegrationProfileEstablishment_process ;
+    rdfs:isDefinedBy emm: ;
+    skos:definition "Processes for Integration Profile Establishment  are continuously reviewed, benchmarked and improved resulting in industry-leading practices and results." .
+
+emm:IntegrationProfileEstablishment_resources_0 a emm:Characterisitic ;
+    emm:maturityScore 0 ;
+    dcterms:isPartOf emm:IntegrationProfileEstablishment_resources ;
+    rdfs:isDefinedBy emm: ;
+    skos:definition "There are no resources available for Integration Profile Establishment . Inivdiduals who do participate in Integration Profile Establishment do so voluntarily in their own time." .
+
+emm:IntegrationProfileEstablishment_resources_1 a emm:Characterisitic ;
+    emm:maturityScore 1 ;
+    dcterms:isPartOf emm:IntegrationProfileEstablishment_resources ;
+    rdfs:isDefinedBy emm: ;
+    skos:definition "Few, if any,  resources, including budget, are assigned for Integration Profile Establishment. Some participating individuals receive resources from the organizations they represent." .
+
+emm:IntegrationProfileEstablishment_resources_2 a emm:Characterisitic ;
+    emm:maturityScore 2 ;
+    dcterms:isPartOf emm:IntegrationProfileEstablishment_resources ;
+    rdfs:isDefinedBy emm: ;
+    skos:definition "Some  resources are identified for Integration Profile Establishment, but additional requirements are not part of investment decisions. Some participating individuals receive resources from the organizations they represent." .
+
+emm:IntegrationProfileEstablishment_resources_3 a emm:Characterisitic ;
+    emm:maturityScore 3 ;
+    dcterms:isPartOf emm:IntegrationProfileEstablishment_resources ;
+    rdfs:isDefinedBy emm: ;
+    skos:definition "Integration Profile Establishment's relationship to resources is defined and requirements are part of the investment planning process. Most individuals performing work for Integration Profile Establishment are compensated for their effort by the organization they represent." .
+
+emm:IntegrationProfileEstablishment_resources_4 a emm:Characterisitic ;
+    emm:maturityScore 4 ;
+    dcterms:isPartOf emm:IntegrationProfileEstablishment_resources ;
+    rdfs:isDefinedBy emm: ;
+    skos:definition "New resources are made available to increase the maturity of  Integration Profile Establishment. Most work done for Integration Profile Establishment is compensated." .
+
+emm:IntegrationProfileEstablishment_resources_5 a emm:Characterisitic ;
+    emm:maturityScore 5 ;
+    dcterms:isPartOf emm:IntegrationProfileEstablishment_resources ;
+    rdfs:isDefinedBy emm: ;
+    skos:definition "New resources and other innovations that can improve Integration Profile Establishment are investigated, benchmarked, proven, and deployed. All work done towards Integration Profile Establishment is compensated." .
+
+emm:KnowledgeRetention_Information_0 a emm:Characterisitic ;
+    emm:maturityScore 0 ;
+    dcterms:isPartOf emm:KnowledgeRetention_Information ;
+    rdfs:isDefinedBy emm: ;
+    skos:definition "Data/information to support Knowledge Retention does not exist." .
+
+emm:KnowledgeRetention_Information_1 a emm:Characterisitic ;
+    emm:maturityScore 1 ;
+    dcterms:isPartOf emm:KnowledgeRetention_Information ;
+    rdfs:isDefinedBy emm: ;
+    skos:definition "Information to support Knowledge Retention is unavailable, unknown, incomplete, incorrect, inconsistent, and not exploited. Minimal descriptive reporting and analytics are performed manually, not used for decision making." .
+
+emm:KnowledgeRetention_Information_2 a emm:Characterisitic ;
+    emm:maturityScore 2 ;
+    dcterms:isPartOf emm:KnowledgeRetention_Information ;
+    rdfs:isDefinedBy emm: ;
+    skos:definition "Information to support Knowledge Retention is available in silos, hard to locate for others." .
+
+emm:KnowledgeRetention_Information_3 a emm:Characterisitic ;
+    emm:maturityScore 3 ;
+    dcterms:isPartOf emm:KnowledgeRetention_Information ;
+    rdfs:isDefinedBy emm: ;
+    skos:definition "Information governance defines how information for Knowledge Retention is collected, stored, understood, accessed, owned, and deleted." .
+
+emm:KnowledgeRetention_Information_4 a emm:Characterisitic ;
+    emm:maturityScore 4 ;
+    dcterms:isPartOf emm:KnowledgeRetention_Information ;
+    rdfs:isDefinedBy emm: ;
+    skos:definition "Information for Knowledge Retention  is available and well understood across the community and externally. Information quality is measured and corrected." .
+
+emm:KnowledgeRetention_Information_5 a emm:Characterisitic ;
+    emm:maturityScore 5 ;
+    dcterms:isPartOf emm:KnowledgeRetention_Information ;
+    rdfs:isDefinedBy emm: ;
+    skos:definition "New information for Knowledge Retention  is continuously identified and benchmarked." .
+
+emm:KnowledgeRetention_peopleandorganization_0 a emm:Characterisitic ;
+    emm:maturityScore 0 ;
+    dcterms:isPartOf emm:KnowledgeRetention_peopleandorganization ;
+    rdfs:isDefinedBy emm: ;
+    skos:definition "There is no organization for Knowledge Retention." .
+
+emm:KnowledgeRetention_peopleandorganization_1 a emm:Characterisitic ;
+    emm:maturityScore 1 ;
+    dcterms:isPartOf emm:KnowledgeRetention_peopleandorganization ;
+    rdfs:isDefinedBy emm: ;
+    skos:definition "Community members have a weak understanding of how for Knowledge Retention with limited skills, training, and poorly defined roles. The community has not allocated community members/working groups for Knowledge Retention." .
+
+emm:KnowledgeRetention_peopleandorganization_2 a emm:Characterisitic ;
+    emm:maturityScore 2 ;
+    dcterms:isPartOf emm:KnowledgeRetention_peopleandorganization ;
+    rdfs:isDefinedBy emm: ;
+    skos:definition "Community members have some skills for Knowledge Retention but may be lacking experience or training. Inconsistent roles and responsibilities." .
+
+emm:KnowledgeRetention_peopleandorganization_3 a emm:Characterisitic ;
+    emm:maturityScore 3 ;
+    dcterms:isPartOf emm:KnowledgeRetention_peopleandorganization ;
+    rdfs:isDefinedBy emm: ;
+    skos:definition "Community members have good skills, experience and available training is in place to help Knowledge Retention. Roles and responsibilities are defined and assigned to members/working groups." .
+
+emm:KnowledgeRetention_peopleandorganization_4 a emm:Characterisitic ;
+    emm:maturityScore 4 ;
+    dcterms:isPartOf emm:KnowledgeRetention_peopleandorganization ;
+    rdfs:isDefinedBy emm: ;
+    skos:definition "Community members have clear roles and responsibilities, have suitable training and are adequately staffed for Knowledge Retention . Members proactively identify people and organizational improvements and have succession plans in place." .
+
+emm:KnowledgeRetention_peopleandorganization_5 a emm:Characterisitic ;
+    emm:maturityScore 5 ;
+    dcterms:isPartOf emm:KnowledgeRetention_peopleandorganization ;
+    rdfs:isDefinedBy emm: ;
+    skos:definition "Community members have an expert and deeply contextualized understanding of Knowledge Retention and are working in a culture that supports and actively embraces continuous improvement, benchmarking and innovation." .
+
+emm:KnowledgeRetention_process_0 a emm:Characterisitic ;
+    emm:maturityScore 0 ;
+    dcterms:isPartOf emm:KnowledgeRetention_process ;
+    rdfs:isDefinedBy emm: ;
+    skos:definition "There are no processes for Knowledge Retention." .
+
+emm:KnowledgeRetention_process_1 a emm:Characterisitic ;
+    emm:maturityScore 1 ;
+    dcterms:isPartOf emm:KnowledgeRetention_process ;
+    rdfs:isDefinedBy emm: ;
+    skos:definition "Little to no process documentation, -governance, or -ownership for Knowledge Retention. Progress on Knowledge Retention is based on individual’s knowledge, manual interventions and with unpredictable results." .
+
+emm:KnowledgeRetention_process_2 a emm:Characterisitic ;
+    emm:maturityScore 2 ;
+    dcterms:isPartOf emm:KnowledgeRetention_process ;
+    rdfs:isDefinedBy emm: ;
+    skos:definition "Key processes for Knowledge Retention  are identified and documented locally. Responsibilities and handoff are poorly understood, and results are inconsistent." .
+
+emm:KnowledgeRetention_process_3 a emm:Characterisitic ;
+    emm:maturityScore 3 ;
+    dcterms:isPartOf emm:KnowledgeRetention_process ;
+    rdfs:isDefinedBy emm: ;
+    skos:definition "Key processes for Knowledge Retention are documented community wide, ownership is defined, and handoff points established. There is inconsistent adoption, execution, and results." .
+
+emm:KnowledgeRetention_process_4 a emm:Characterisitic ;
+    emm:maturityScore 4 ;
+    dcterms:isPartOf emm:KnowledgeRetention_process ;
+    rdfs:isDefinedBy emm: ;
+    skos:definition "Processes for Knowledge Retention are defined, understood, reliable, standardized, efficient, measured and adopted community wide with consistent results." .
+
+emm:KnowledgeRetention_process_5 a emm:Characterisitic ;
+    emm:maturityScore 5 ;
+    dcterms:isPartOf emm:KnowledgeRetention_process ;
+    rdfs:isDefinedBy emm: ;
+    skos:definition "Processes for Knowledge Retention  are continuously reviewed, benchmarked and improved resulting in industry-leading practices and results." .
+
+emm:KnowledgeRetention_resources_0 a emm:Characterisitic ;
+    emm:maturityScore 0 ;
+    dcterms:isPartOf emm:KnowledgeRetention_resources ;
+    rdfs:isDefinedBy emm: ;
+    skos:definition "There are no resources available for Knowledge Retention . Inivdiduals who do participate in Knowledge Retention do so voluntarily in their own time." .
+
+emm:KnowledgeRetention_resources_1 a emm:Characterisitic ;
+    emm:maturityScore 1 ;
+    dcterms:isPartOf emm:KnowledgeRetention_resources ;
+    rdfs:isDefinedBy emm: ;
+    skos:definition "Few, if any,  resources, including budget, are assigned for Knowledge Retention. Some participating individuals receive resources from the organizations they represent." .
+
+emm:KnowledgeRetention_resources_2 a emm:Characterisitic ;
+    emm:maturityScore 2 ;
+    dcterms:isPartOf emm:KnowledgeRetention_resources ;
+    rdfs:isDefinedBy emm: ;
+    skos:definition "Some  resources are identified for Knowledge Retention, but additional requirements are not part of investment decisions. Some participating individuals receive resources from the organizations they represent." .
+
+emm:KnowledgeRetention_resources_3 a emm:Characterisitic ;
+    emm:maturityScore 3 ;
+    dcterms:isPartOf emm:KnowledgeRetention_resources ;
+    rdfs:isDefinedBy emm: ;
+    skos:definition "Knowledge Retention's relationship to resources is defined and requirements are part of the investment planning process. Most individuals performing work for Knowledge Retention are compensated for their effort by the organization they represent." .
+
+emm:KnowledgeRetention_resources_4 a emm:Characterisitic ;
+    emm:maturityScore 4 ;
+    dcterms:isPartOf emm:KnowledgeRetention_resources ;
+    rdfs:isDefinedBy emm: ;
+    skos:definition "New resources are made available to increase the maturity of  Knowledge Retention. Most work done for Knowledge Retention is compensated." .
+
+emm:KnowledgeRetention_resources_5 a emm:Characterisitic ;
+    emm:maturityScore 5 ;
+    dcterms:isPartOf emm:KnowledgeRetention_resources ;
+    rdfs:isDefinedBy emm: ;
+    skos:definition "New resources and other innovations that can improve Knowledge Retention are investigated, benchmarked, proven, and deployed. All work done towards Knowledge Retention is compensated." .
+
+emm:MarketCreation_Information_0 a emm:Characterisitic ;
+    emm:maturityScore 0 ;
+    dcterms:isPartOf emm:MarketCreation_Information ;
+    rdfs:isDefinedBy emm: ;
+    skos:definition "Data/information to support Market Creation does not exist." .
+
+emm:MarketCreation_Information_1 a emm:Characterisitic ;
+    emm:maturityScore 1 ;
+    dcterms:isPartOf emm:MarketCreation_Information ;
+    rdfs:isDefinedBy emm: ;
+    skos:definition "Information to support Market Creation is unavailable, unknown, incomplete, incorrect, inconsistent, and not exploited. Minimal descriptive reporting and analytics are performed manually, not used for decision making." .
+
+emm:MarketCreation_Information_2 a emm:Characterisitic ;
+    emm:maturityScore 2 ;
+    dcterms:isPartOf emm:MarketCreation_Information ;
+    rdfs:isDefinedBy emm: ;
+    skos:definition "Information to support Market Creation is available in silos, hard to locate for others." .
+
+emm:MarketCreation_Information_3 a emm:Characterisitic ;
+    emm:maturityScore 3 ;
+    dcterms:isPartOf emm:MarketCreation_Information ;
+    rdfs:isDefinedBy emm: ;
+    skos:definition "Information governance defines how information for Market Creation is collected, stored, understood, accessed, owned, and deleted." .
+
+emm:MarketCreation_Information_4 a emm:Characterisitic ;
+    emm:maturityScore 4 ;
+    dcterms:isPartOf emm:MarketCreation_Information ;
+    rdfs:isDefinedBy emm: ;
+    skos:definition "Information for Market Creation  is available and well understood across the community and externally. Information quality is measured and corrected." .
+
+emm:MarketCreation_Information_5 a emm:Characterisitic ;
+    emm:maturityScore 5 ;
+    dcterms:isPartOf emm:MarketCreation_Information ;
+    rdfs:isDefinedBy emm: ;
+    skos:definition "New information for Market Creation  is continuously identified and benchmarked." .
+
+emm:MarketCreation_peopleandorganization_0 a emm:Characterisitic ;
+    emm:maturityScore 0 ;
+    dcterms:isPartOf emm:MarketCreation_peopleandorganization ;
+    rdfs:isDefinedBy emm: ;
+    skos:definition "There is no organization for Market Creation." .
+
+emm:MarketCreation_peopleandorganization_1 a emm:Characterisitic ;
+    emm:maturityScore 1 ;
+    dcterms:isPartOf emm:MarketCreation_peopleandorganization ;
+    rdfs:isDefinedBy emm: ;
+    skos:definition "Community members have a weak understanding of how for Market Creation with limited skills, training, and poorly defined roles. The community has not allocated community members/working groups for Market Creation." .
+
+emm:MarketCreation_peopleandorganization_2 a emm:Characterisitic ;
+    emm:maturityScore 2 ;
+    dcterms:isPartOf emm:MarketCreation_peopleandorganization ;
+    rdfs:isDefinedBy emm: ;
+    skos:definition "Community members have some skills for Market Creation but may be lacking experience or training. Inconsistent roles and responsibilities." .
+
+emm:MarketCreation_peopleandorganization_3 a emm:Characterisitic ;
+    emm:maturityScore 3 ;
+    dcterms:isPartOf emm:MarketCreation_peopleandorganization ;
+    rdfs:isDefinedBy emm: ;
+    skos:definition "Community members have good skills, experience and available training is in place to help Market Creation. Roles and responsibilities are defined and assigned to members/working groups." .
+
+emm:MarketCreation_peopleandorganization_4 a emm:Characterisitic ;
+    emm:maturityScore 4 ;
+    dcterms:isPartOf emm:MarketCreation_peopleandorganization ;
+    rdfs:isDefinedBy emm: ;
+    skos:definition "Community members have clear roles and responsibilities, have suitable training and are adequately staffed for Market Creation . Members proactively identify people and organizational improvements and have succession plans in place." .
+
+emm:MarketCreation_peopleandorganization_5 a emm:Characterisitic ;
+    emm:maturityScore 5 ;
+    dcterms:isPartOf emm:MarketCreation_peopleandorganization ;
+    rdfs:isDefinedBy emm: ;
+    skos:definition "Community members have an expert and deeply contextualized understanding of Market Creation and are working in a culture that supports and actively embraces continuous improvement, benchmarking and innovation." .
+
+emm:MarketCreation_process_0 a emm:Characterisitic ;
+    emm:maturityScore 0 ;
+    dcterms:isPartOf emm:MarketCreation_process ;
+    rdfs:isDefinedBy emm: ;
+    skos:definition "There are no processes for Market Creation." .
+
+emm:MarketCreation_process_1 a emm:Characterisitic ;
+    emm:maturityScore 1 ;
+    dcterms:isPartOf emm:MarketCreation_process ;
+    rdfs:isDefinedBy emm: ;
+    skos:definition "Little to no process documentation, -governance, or -ownership for Market Creation. Progress on Market Creation is based on individual’s knowledge, manual interventions and with unpredictable results." .
+
+emm:MarketCreation_process_2 a emm:Characterisitic ;
+    emm:maturityScore 2 ;
+    dcterms:isPartOf emm:MarketCreation_process ;
+    rdfs:isDefinedBy emm: ;
+    skos:definition "Key processes for Market Creation  are identified and documented locally. Responsibilities and handoff are poorly understood, and results are inconsistent." .
+
+emm:MarketCreation_process_3 a emm:Characterisitic ;
+    emm:maturityScore 3 ;
+    dcterms:isPartOf emm:MarketCreation_process ;
+    rdfs:isDefinedBy emm: ;
+    skos:definition "Key processes for Market Creation are documented community wide, ownership is defined, and handoff points established. There is inconsistent adoption, execution, and results." .
+
+emm:MarketCreation_process_4 a emm:Characterisitic ;
+    emm:maturityScore 4 ;
+    dcterms:isPartOf emm:MarketCreation_process ;
+    rdfs:isDefinedBy emm: ;
+    skos:definition "Processes for Market Creation are defined, understood, reliable, standardized, efficient, measured and adopted community wide with consistent results." .
+
+emm:MarketCreation_process_5 a emm:Characterisitic ;
+    emm:maturityScore 5 ;
+    dcterms:isPartOf emm:MarketCreation_process ;
+    rdfs:isDefinedBy emm: ;
+    skos:definition "Processes for Market Creation  are continuously reviewed, benchmarked and improved resulting in industry-leading practices and results." .
+
+emm:MarketCreation_resources_0 a emm:Characterisitic ;
+    emm:maturityScore 0 ;
+    dcterms:isPartOf emm:MarketCreation_resources ;
+    rdfs:isDefinedBy emm: ;
+    skos:definition "There are no resources available for Market Creation . Inivdiduals who do participate in Market Creation do so voluntarily in their own time." .
+
+emm:MarketCreation_resources_1 a emm:Characterisitic ;
+    emm:maturityScore 1 ;
+    dcterms:isPartOf emm:MarketCreation_resources ;
+    rdfs:isDefinedBy emm: ;
+    skos:definition "Few, if any,  resources, including budget, are assigned for Market Creation. Some participating individuals receive resources from the organizations they represent." .
+
+emm:MarketCreation_resources_2 a emm:Characterisitic ;
+    emm:maturityScore 2 ;
+    dcterms:isPartOf emm:MarketCreation_resources ;
+    rdfs:isDefinedBy emm: ;
+    skos:definition "Some  resources are identified for Market Creation, but additional requirements are not part of investment decisions. Some participating individuals receive resources from the organizations they represent." .
+
+emm:MarketCreation_resources_3 a emm:Characterisitic ;
+    emm:maturityScore 3 ;
+    dcterms:isPartOf emm:MarketCreation_resources ;
+    rdfs:isDefinedBy emm: ;
+    skos:definition "Market Creation's relationship to resources is defined and requirements are part of the investment planning process. Most individuals performing work for Market Creation are compensated for their effort by the organization they represent." .
+
+emm:MarketCreation_resources_4 a emm:Characterisitic ;
+    emm:maturityScore 4 ;
+    dcterms:isPartOf emm:MarketCreation_resources ;
+    rdfs:isDefinedBy emm: ;
+    skos:definition "New resources are made available to increase the maturity of  Market Creation. Most work done for Market Creation is compensated." .
+
+emm:MarketCreation_resources_5 a emm:Characterisitic ;
+    emm:maturityScore 5 ;
+    dcterms:isPartOf emm:MarketCreation_resources ;
+    rdfs:isDefinedBy emm: ;
+    skos:definition "New resources and other innovations that can improve Market Creation are investigated, benchmarked, proven, and deployed. All work done towards Market Creation is compensated." .
+
+emm:OperationalAlignment_Information_0 a emm:Characterisitic ;
+    emm:maturityScore 0 ;
+    dcterms:isPartOf emm:OperationalAlignment_Information ;
+    rdfs:isDefinedBy emm: ;
+    skos:definition "Data/information to support Operational Alignment does not exist." .
+
+emm:OperationalAlignment_Information_1 a emm:Characterisitic ;
+    emm:maturityScore 1 ;
+    dcterms:isPartOf emm:OperationalAlignment_Information ;
+    rdfs:isDefinedBy emm: ;
+    skos:definition "Information to support Operational Alignment is unavailable, unknown, incomplete, incorrect, inconsistent, and not exploited. Minimal descriptive reporting and analytics are performed manually, not used for decision making." .
+
+emm:OperationalAlignment_Information_2 a emm:Characterisitic ;
+    emm:maturityScore 2 ;
+    dcterms:isPartOf emm:OperationalAlignment_Information ;
+    rdfs:isDefinedBy emm: ;
+    skos:definition "Information to support Operational Alignment is available in silos, hard to locate for others." .
+
+emm:OperationalAlignment_Information_3 a emm:Characterisitic ;
+    emm:maturityScore 3 ;
+    dcterms:isPartOf emm:OperationalAlignment_Information ;
+    rdfs:isDefinedBy emm: ;
+    skos:definition "Information governance defines how information for Operational Alignment is collected, stored, understood, accessed, owned, and deleted." .
+
+emm:OperationalAlignment_Information_4 a emm:Characterisitic ;
+    emm:maturityScore 4 ;
+    dcterms:isPartOf emm:OperationalAlignment_Information ;
+    rdfs:isDefinedBy emm: ;
+    skos:definition "Information for Operational Alignment  is available and well understood across the community and externally. Information quality is measured and corrected." .
+
+emm:OperationalAlignment_Information_5 a emm:Characterisitic ;
+    emm:maturityScore 5 ;
+    dcterms:isPartOf emm:OperationalAlignment_Information ;
+    rdfs:isDefinedBy emm: ;
+    skos:definition "New information for Operational Alignment  is continuously identified and benchmarked." .
+
+emm:OperationalAlignment_peopleandorganization_0 a emm:Characterisitic ;
+    emm:maturityScore 0 ;
+    dcterms:isPartOf emm:OperationalAlignment_peopleandorganization ;
+    rdfs:isDefinedBy emm: ;
+    skos:definition "There is no organization for Operational Alignment." .
+
+emm:OperationalAlignment_peopleandorganization_1 a emm:Characterisitic ;
+    emm:maturityScore 1 ;
+    dcterms:isPartOf emm:OperationalAlignment_peopleandorganization ;
+    rdfs:isDefinedBy emm: ;
+    skos:definition "Community members have a weak understanding of how for Operational Alignment with limited skills, training, and poorly defined roles. The community has not allocated community members/working groups for Operational Alignment." .
+
+emm:OperationalAlignment_peopleandorganization_2 a emm:Characterisitic ;
+    emm:maturityScore 2 ;
+    dcterms:isPartOf emm:OperationalAlignment_peopleandorganization ;
+    rdfs:isDefinedBy emm: ;
+    skos:definition "Community members have some skills for Operational Alignment but may be lacking experience or training. Inconsistent roles and responsibilities." .
+
+emm:OperationalAlignment_peopleandorganization_3 a emm:Characterisitic ;
+    emm:maturityScore 3 ;
+    dcterms:isPartOf emm:OperationalAlignment_peopleandorganization ;
+    rdfs:isDefinedBy emm: ;
+    skos:definition "Community members have good skills, experience and available training is in place to help Operational Alignment. Roles and responsibilities are defined and assigned to members/working groups." .
+
+emm:OperationalAlignment_peopleandorganization_4 a emm:Characterisitic ;
+    emm:maturityScore 4 ;
+    dcterms:isPartOf emm:OperationalAlignment_peopleandorganization ;
+    rdfs:isDefinedBy emm: ;
+    skos:definition "Community members have clear roles and responsibilities, have suitable training and are adequately staffed for Operational Alignment . Members proactively identify people and organizational improvements and have succession plans in place." .
+
+emm:OperationalAlignment_peopleandorganization_5 a emm:Characterisitic ;
+    emm:maturityScore 5 ;
+    dcterms:isPartOf emm:OperationalAlignment_peopleandorganization ;
+    rdfs:isDefinedBy emm: ;
+    skos:definition "Community members have an expert and deeply contextualized understanding of Operational Alignment and are working in a culture that supports and actively embraces continuous improvement, benchmarking and innovation." .
+
+emm:OperationalAlignment_process_0 a emm:Characterisitic ;
+    emm:maturityScore 0 ;
+    dcterms:isPartOf emm:OperationalAlignment_process ;
+    rdfs:isDefinedBy emm: ;
+    skos:definition "There are no processes for Operational Alignment." .
+
+emm:OperationalAlignment_process_1 a emm:Characterisitic ;
+    emm:maturityScore 1 ;
+    dcterms:isPartOf emm:OperationalAlignment_process ;
+    rdfs:isDefinedBy emm: ;
+    skos:definition "Little to no process documentation, -governance, or -ownership for Operational Alignment. Progress on Operational Alignment is based on individual’s knowledge, manual interventions and with unpredictable results." .
+
+emm:OperationalAlignment_process_2 a emm:Characterisitic ;
+    emm:maturityScore 2 ;
+    dcterms:isPartOf emm:OperationalAlignment_process ;
+    rdfs:isDefinedBy emm: ;
+    skos:definition "Key processes for Operational Alignment  are identified and documented locally. Responsibilities and handoff are poorly understood, and results are inconsistent." .
+
+emm:OperationalAlignment_process_3 a emm:Characterisitic ;
+    emm:maturityScore 3 ;
+    dcterms:isPartOf emm:OperationalAlignment_process ;
+    rdfs:isDefinedBy emm: ;
+    skos:definition "Key processes for Operational Alignment are documented community wide, ownership is defined, and handoff points established. There is inconsistent adoption, execution, and results." .
+
+emm:OperationalAlignment_process_4 a emm:Characterisitic ;
+    emm:maturityScore 4 ;
+    dcterms:isPartOf emm:OperationalAlignment_process ;
+    rdfs:isDefinedBy emm: ;
+    skos:definition "Processes for Operational Alignment are defined, understood, reliable, standardized, efficient, measured and adopted community wide with consistent results." .
+
+emm:OperationalAlignment_process_5 a emm:Characterisitic ;
+    emm:maturityScore 5 ;
+    dcterms:isPartOf emm:OperationalAlignment_process ;
+    rdfs:isDefinedBy emm: ;
+    skos:definition "Processes for Operational Alignment  are continuously reviewed, benchmarked and improved resulting in industry-leading practices and results." .
+
+emm:OperationalAlignment_resources_0 a emm:Characterisitic ;
+    emm:maturityScore 0 ;
+    dcterms:isPartOf emm:OperationalAlignment_resources ;
+    rdfs:isDefinedBy emm: ;
+    skos:definition "There are no resources available for Operational Alignment . Inivdiduals who do participate in Operational Alignment do so voluntarily in their own time." .
+
+emm:OperationalAlignment_resources_1 a emm:Characterisitic ;
+    emm:maturityScore 1 ;
+    dcterms:isPartOf emm:OperationalAlignment_resources ;
+    rdfs:isDefinedBy emm: ;
+    skos:definition "Few, if any,  resources, including budget, are assigned for Operational Alignment. Some participating individuals receive resources from the organizations they represent." .
+
+emm:OperationalAlignment_resources_2 a emm:Characterisitic ;
+    emm:maturityScore 2 ;
+    dcterms:isPartOf emm:OperationalAlignment_resources ;
+    rdfs:isDefinedBy emm: ;
+    skos:definition "Some  resources are identified for Operational Alignment, but additional requirements are not part of investment decisions. Some participating individuals receive resources from the organizations they represent." .
+
+emm:OperationalAlignment_resources_3 a emm:Characterisitic ;
+    emm:maturityScore 3 ;
+    dcterms:isPartOf emm:OperationalAlignment_resources ;
+    rdfs:isDefinedBy emm: ;
+    skos:definition "Operational Alignment's relationship to resources is defined and requirements are part of the investment planning process. Most individuals performing work for Operational Alignment are compensated for their effort by the organization they represent." .
+
+emm:OperationalAlignment_resources_4 a emm:Characterisitic ;
+    emm:maturityScore 4 ;
+    dcterms:isPartOf emm:OperationalAlignment_resources ;
+    rdfs:isDefinedBy emm: ;
+    skos:definition "New resources are made available to increase the maturity of  Operational Alignment. Most work done for Operational Alignment is compensated." .
+
+emm:OperationalAlignment_resources_5 a emm:Characterisitic ;
+    emm:maturityScore 5 ;
+    dcterms:isPartOf emm:OperationalAlignment_resources ;
+    rdfs:isDefinedBy emm: ;
+    skos:definition "New resources and other innovations that can improve Operational Alignment are investigated, benchmarked, proven, and deployed. All work done towards Operational Alignment is compensated." .
+
+emm:Standardization_Information_0 a emm:Characterisitic ;
+    emm:maturityScore 0 ;
+    dcterms:isPartOf emm:Standardization_Information ;
+    rdfs:isDefinedBy emm: ;
+    skos:definition "Data/information to support Standardization does not exist." .
+
+emm:Standardization_Information_1 a emm:Characterisitic ;
+    emm:maturityScore 1 ;
+    dcterms:isPartOf emm:Standardization_Information ;
+    rdfs:isDefinedBy emm: ;
+    skos:definition "Information to support Standardization is unavailable, unknown, incomplete, incorrect, inconsistent, and not exploited. Minimal descriptive reporting and analytics are performed manually, not used for decision making." .
+
+emm:Standardization_Information_2 a emm:Characterisitic ;
+    emm:maturityScore 2 ;
+    dcterms:isPartOf emm:Standardization_Information ;
+    rdfs:isDefinedBy emm: ;
+    skos:definition "Information to support Standardization is available in silos, hard to locate for others." .
+
+emm:Standardization_Information_3 a emm:Characterisitic ;
+    emm:maturityScore 3 ;
+    dcterms:isPartOf emm:Standardization_Information ;
+    rdfs:isDefinedBy emm: ;
+    skos:definition "Information governance defines how information for Standardization is collected, stored, understood, accessed, owned, and deleted." .
+
+emm:Standardization_Information_4 a emm:Characterisitic ;
+    emm:maturityScore 4 ;
+    dcterms:isPartOf emm:Standardization_Information ;
+    rdfs:isDefinedBy emm: ;
+    skos:definition "Information for Standardization  is available and well understood across the community and externally. Information quality is measured and corrected." .
+
+emm:Standardization_Information_5 a emm:Characterisitic ;
+    emm:maturityScore 5 ;
+    dcterms:isPartOf emm:Standardization_Information ;
+    rdfs:isDefinedBy emm: ;
+    skos:definition "New information for Standardization  is continuously identified and benchmarked." .
+
+emm:Standardization_peopleandorganization_0 a emm:Characterisitic ;
+    emm:maturityScore 0 ;
+    dcterms:isPartOf emm:Standardization_peopleandorganization ;
+    rdfs:isDefinedBy emm: ;
+    skos:definition "There is no organization for Standardization." .
+
+emm:Standardization_peopleandorganization_1 a emm:Characterisitic ;
+    emm:maturityScore 1 ;
+    dcterms:isPartOf emm:Standardization_peopleandorganization ;
+    rdfs:isDefinedBy emm: ;
+    skos:definition "Community members have a weak understanding of how for Standardization with limited skills, training, and poorly defined roles. The community has not allocated community members/working groups for Standardization." .
+
+emm:Standardization_peopleandorganization_2 a emm:Characterisitic ;
+    emm:maturityScore 2 ;
+    dcterms:isPartOf emm:Standardization_peopleandorganization ;
+    rdfs:isDefinedBy emm: ;
+    skos:definition "Community members have some skills for Standardization but may be lacking experience or training. Inconsistent roles and responsibilities." .
+
+emm:Standardization_peopleandorganization_3 a emm:Characterisitic ;
+    emm:maturityScore 3 ;
+    dcterms:isPartOf emm:Standardization_peopleandorganization ;
+    rdfs:isDefinedBy emm: ;
+    skos:definition "Community members have good skills, experience and available training is in place to help Standardization. Roles and responsibilities are defined and assigned to members/working groups." .
+
+emm:Standardization_peopleandorganization_4 a emm:Characterisitic ;
+    emm:maturityScore 4 ;
+    dcterms:isPartOf emm:Standardization_peopleandorganization ;
+    rdfs:isDefinedBy emm: ;
+    skos:definition "Community members have clear roles and responsibilities, have suitable training and are adequately staffed for Standardization . Members proactively identify people and organizational improvements and have succession plans in place." .
+
+emm:Standardization_peopleandorganization_5 a emm:Characterisitic ;
+    emm:maturityScore 5 ;
+    dcterms:isPartOf emm:Standardization_peopleandorganization ;
+    rdfs:isDefinedBy emm: ;
+    skos:definition "Community members have an expert and deeply contextualized understanding of Standardization and are working in a culture that supports and actively embraces continuous improvement, benchmarking and innovation." .
+
+emm:Standardization_process_0 a emm:Characterisitic ;
+    emm:maturityScore 0 ;
+    dcterms:isPartOf emm:Standardization_process ;
+    rdfs:isDefinedBy emm: ;
+    skos:definition "There are no processes for Standardization." .
+
+emm:Standardization_process_1 a emm:Characterisitic ;
+    emm:maturityScore 1 ;
+    dcterms:isPartOf emm:Standardization_process ;
+    rdfs:isDefinedBy emm: ;
+    skos:definition "Little to no process documentation, -governance, or -ownership for Standardization. Progress on Standardization is based on individual’s knowledge, manual interventions and with unpredictable results." .
+
+emm:Standardization_process_2 a emm:Characterisitic ;
+    emm:maturityScore 2 ;
+    dcterms:isPartOf emm:Standardization_process ;
+    rdfs:isDefinedBy emm: ;
+    skos:definition "Key processes for Standardization  are identified and documented locally. Responsibilities and handoff are poorly understood, and results are inconsistent." .
+
+emm:Standardization_process_3 a emm:Characterisitic ;
+    emm:maturityScore 3 ;
+    dcterms:isPartOf emm:Standardization_process ;
+    rdfs:isDefinedBy emm: ;
+    skos:definition "Key processes for Standardization are documented community wide, ownership is defined, and handoff points established. There is inconsistent adoption, execution, and results." .
+
+emm:Standardization_process_4 a emm:Characterisitic ;
+    emm:maturityScore 4 ;
+    dcterms:isPartOf emm:Standardization_process ;
+    rdfs:isDefinedBy emm: ;
+    skos:definition "Processes for Standardization are defined, understood, reliable, standardized, efficient, measured and adopted community wide with consistent results." .
+
+emm:Standardization_process_5 a emm:Characterisitic ;
+    emm:maturityScore 5 ;
+    dcterms:isPartOf emm:Standardization_process ;
+    rdfs:isDefinedBy emm: ;
+    skos:definition "Processes for Standardization  are continuously reviewed, benchmarked and improved resulting in industry-leading practices and results." .
+
+emm:Standardization_resources_0 a emm:Characterisitic ;
+    emm:maturityScore 0 ;
+    dcterms:isPartOf emm:Standardization_resources ;
+    rdfs:isDefinedBy emm: ;
+    skos:definition "There are no resources available for Standardization . Inivdiduals who do participate in Standardization do so voluntarily in their own time." .
+
+emm:Standardization_resources_1 a emm:Characterisitic ;
+    emm:maturityScore 1 ;
+    dcterms:isPartOf emm:Standardization_resources ;
+    rdfs:isDefinedBy emm: ;
+    skos:definition "Few, if any,  resources, including budget, are assigned for Standardization. Some participating individuals receive resources from the organizations they represent." .
+
+emm:Standardization_resources_2 a emm:Characterisitic ;
+    emm:maturityScore 2 ;
+    dcterms:isPartOf emm:Standardization_resources ;
+    rdfs:isDefinedBy emm: ;
+    skos:definition "Some  resources are identified for Standardization, but additional requirements are not part of investment decisions. Some participating individuals receive resources from the organizations they represent." .
+
+emm:Standardization_resources_3 a emm:Characterisitic ;
+    emm:maturityScore 3 ;
+    dcterms:isPartOf emm:Standardization_resources ;
+    rdfs:isDefinedBy emm: ;
+    skos:definition "Standardization's relationship to resources is defined and requirements are part of the investment planning process. Most individuals performing work for Standardization are compensated for their effort by the organization they represent." .
+
+emm:Standardization_resources_4 a emm:Characterisitic ;
+    emm:maturityScore 4 ;
+    dcterms:isPartOf emm:Standardization_resources ;
+    rdfs:isDefinedBy emm: ;
+    skos:definition "New resources are made available to increase the maturity of  Standardization. Most work done for Standardization is compensated." .
+
+emm:Standardization_resources_5 a emm:Characterisitic ;
+    emm:maturityScore 5 ;
+    dcterms:isPartOf emm:Standardization_resources ;
+    rdfs:isDefinedBy emm: ;
+    skos:definition "New resources and other innovations that can improve Standardization are investigated, benchmarked, proven, and deployed. All work done towards Standardization is compensated." .
+
+emm:ToolProductandReferenceImplementationDevelopment_Information_0 a emm:Characterisitic ;
+    emm:maturityScore 0 ;
+    dcterms:isPartOf emm:ToolProductandReferenceImplementationDevelopment_Information ;
+    rdfs:isDefinedBy emm: ;
+    skos:definition "Data/information to support Tool, Product and Reference Implementation Development does not exist." .
+
+emm:ToolProductandReferenceImplementationDevelopment_Information_1 a emm:Characterisitic ;
+    emm:maturityScore 1 ;
+    dcterms:isPartOf emm:ToolProductandReferenceImplementationDevelopment_Information ;
+    rdfs:isDefinedBy emm: ;
+    skos:definition "Information to support Tool, Product and Reference Implementation Development is unavailable, unknown, incomplete, incorrect, inconsistent, and not exploited. Minimal descriptive reporting and analytics are performed manually, not used for decision making." .
+
+emm:ToolProductandReferenceImplementationDevelopment_Information_2 a emm:Characterisitic ;
+    emm:maturityScore 2 ;
+    dcterms:isPartOf emm:ToolProductandReferenceImplementationDevelopment_Information ;
+    rdfs:isDefinedBy emm: ;
+    skos:definition "Information to support Tool, Product and Reference Implementation Development is available in silos, hard to locate for others." .
+
+emm:ToolProductandReferenceImplementationDevelopment_Information_3 a emm:Characterisitic ;
+    emm:maturityScore 3 ;
+    dcterms:isPartOf emm:ToolProductandReferenceImplementationDevelopment_Information ;
+    rdfs:isDefinedBy emm: ;
+    skos:definition "Information governance defines how information for Tool, Product and Reference Implementation Development is collected, stored, understood, accessed, owned, and deleted." .
+
+emm:ToolProductandReferenceImplementationDevelopment_Information_4 a emm:Characterisitic ;
+    emm:maturityScore 4 ;
+    dcterms:isPartOf emm:ToolProductandReferenceImplementationDevelopment_Information ;
+    rdfs:isDefinedBy emm: ;
+    skos:definition "Information for Tool, Product and Reference Implementation Development  is available and well understood across the community and externally. Information quality is measured and corrected." .
+
+emm:ToolProductandReferenceImplementationDevelopment_Information_5 a emm:Characterisitic ;
+    emm:maturityScore 5 ;
+    dcterms:isPartOf emm:ToolProductandReferenceImplementationDevelopment_Information ;
+    rdfs:isDefinedBy emm: ;
+    skos:definition "New information for Tool, Product and Reference Implementation Development  is continuously identified and benchmarked." .
+
+emm:ToolProductandReferenceImplementationDevelopment_peopleandorganization_0 a emm:Characterisitic ;
+    emm:maturityScore 0 ;
+    dcterms:isPartOf emm:ToolProductandReferenceImplementationDevelopment_peopleandorganization ;
+    rdfs:isDefinedBy emm: ;
+    skos:definition "There is no organization for Tool, Product and Reference Implementation Development." .
+
+emm:ToolProductandReferenceImplementationDevelopment_peopleandorganization_1 a emm:Characterisitic ;
+    emm:maturityScore 1 ;
+    dcterms:isPartOf emm:ToolProductandReferenceImplementationDevelopment_peopleandorganization ;
+    rdfs:isDefinedBy emm: ;
+    skos:definition "Community members have a weak understanding of how for Tool, Product and Reference Implementation Development with limited skills, training, and poorly defined roles. The community has not allocated community members/working groups for Tool, Product and Reference Implementation Development." .
+
+emm:ToolProductandReferenceImplementationDevelopment_peopleandorganization_2 a emm:Characterisitic ;
+    emm:maturityScore 2 ;
+    dcterms:isPartOf emm:ToolProductandReferenceImplementationDevelopment_peopleandorganization ;
+    rdfs:isDefinedBy emm: ;
+    skos:definition "Community members have some skills for Tool, Product and Reference Implementation Development but may be lacking experience or training. Inconsistent roles and responsibilities." .
+
+emm:ToolProductandReferenceImplementationDevelopment_peopleandorganization_3 a emm:Characterisitic ;
+    emm:maturityScore 3 ;
+    dcterms:isPartOf emm:ToolProductandReferenceImplementationDevelopment_peopleandorganization ;
+    rdfs:isDefinedBy emm: ;
+    skos:definition "Community members have good skills, experience and available training is in place to help Tool, Product and Reference Implementation Development. Roles and responsibilities are defined and assigned to members/working groups." .
+
+emm:ToolProductandReferenceImplementationDevelopment_peopleandorganization_4 a emm:Characterisitic ;
+    emm:maturityScore 4 ;
+    dcterms:isPartOf emm:ToolProductandReferenceImplementationDevelopment_peopleandorganization ;
+    rdfs:isDefinedBy emm: ;
+    skos:definition "Community members have clear roles and responsibilities, have suitable training and are adequately staffed for Tool, Product and Reference Implementation Development . Members proactively identify people and organizational improvements and have succession plans in place." .
+
+emm:ToolProductandReferenceImplementationDevelopment_peopleandorganization_5 a emm:Characterisitic ;
+    emm:maturityScore 5 ;
+    dcterms:isPartOf emm:ToolProductandReferenceImplementationDevelopment_peopleandorganization ;
+    rdfs:isDefinedBy emm: ;
+    skos:definition "Community members have an expert and deeply contextualized understanding of Tool, Product and Reference Implementation Development and are working in a culture that supports and actively embraces continuous improvement, benchmarking and innovation." .
+
+emm:ToolProductandReferenceImplementationDevelopment_process_0 a emm:Characterisitic ;
+    emm:maturityScore 0 ;
+    dcterms:isPartOf emm:ToolProductandReferenceImplementationDevelopment_process ;
+    rdfs:isDefinedBy emm: ;
+    skos:definition "There are no processes for Tool, Product and Reference Implementation Development." .
+
+emm:ToolProductandReferenceImplementationDevelopment_process_1 a emm:Characterisitic ;
+    emm:maturityScore 1 ;
+    dcterms:isPartOf emm:ToolProductandReferenceImplementationDevelopment_process ;
+    rdfs:isDefinedBy emm: ;
+    skos:definition "Little to no process documentation, -governance, or -ownership for Tool, Product and Reference Implementation Development. Progress on Tool, Product and Reference Implementation Development is based on individual’s knowledge, manual interventions and with unpredictable results." .
+
+emm:ToolProductandReferenceImplementationDevelopment_process_2 a emm:Characterisitic ;
+    emm:maturityScore 2 ;
+    dcterms:isPartOf emm:ToolProductandReferenceImplementationDevelopment_process ;
+    rdfs:isDefinedBy emm: ;
+    skos:definition "Key processes for Tool, Product and Reference Implementation Development  are identified and documented locally. Responsibilities and handoff are poorly understood, and results are inconsistent." .
+
+emm:ToolProductandReferenceImplementationDevelopment_process_3 a emm:Characterisitic ;
+    emm:maturityScore 3 ;
+    dcterms:isPartOf emm:ToolProductandReferenceImplementationDevelopment_process ;
+    rdfs:isDefinedBy emm: ;
+    skos:definition "Key processes for Tool, Product and Reference Implementation Development are documented community wide, ownership is defined, and handoff points established. There is inconsistent adoption, execution, and results." .
+
+emm:ToolProductandReferenceImplementationDevelopment_process_4 a emm:Characterisitic ;
+    emm:maturityScore 4 ;
+    dcterms:isPartOf emm:ToolProductandReferenceImplementationDevelopment_process ;
+    rdfs:isDefinedBy emm: ;
+    skos:definition "Processes for Tool, Product and Reference Implementation Development are defined, understood, reliable, standardized, efficient, measured and adopted community wide with consistent results." .
+
+emm:ToolProductandReferenceImplementationDevelopment_process_5 a emm:Characterisitic ;
+    emm:maturityScore 5 ;
+    dcterms:isPartOf emm:ToolProductandReferenceImplementationDevelopment_process ;
+    rdfs:isDefinedBy emm: ;
+    skos:definition "Processes for Tool, Product and Reference Implementation Development  are continuously reviewed, benchmarked and improved resulting in industry-leading practices and results." .
+
+emm:ToolProductandReferenceImplementationDevelopment_resources_0 a emm:Characterisitic ;
+    emm:maturityScore 0 ;
+    dcterms:isPartOf emm:ToolProductandReferenceImplementationDevelopment_resources ;
+    rdfs:isDefinedBy emm: ;
+    skos:definition "There are no resources available for Tool, Product and Reference Implementation Development . Inivdiduals who do participate in Tool, Product and Reference Implementation Development do so voluntarily in their own time." .
+
+emm:ToolProductandReferenceImplementationDevelopment_resources_1 a emm:Characterisitic ;
+    emm:maturityScore 1 ;
+    dcterms:isPartOf emm:ToolProductandReferenceImplementationDevelopment_resources ;
+    rdfs:isDefinedBy emm: ;
+    skos:definition "Few, if any,  resources, including budget, are assigned for Tool, Product and Reference Implementation Development. Some participating individuals receive resources from the organizations they represent." .
+
+emm:ToolProductandReferenceImplementationDevelopment_resources_2 a emm:Characterisitic ;
+    emm:maturityScore 2 ;
+    dcterms:isPartOf emm:ToolProductandReferenceImplementationDevelopment_resources ;
+    rdfs:isDefinedBy emm: ;
+    skos:definition "Some  resources are identified for Tool, Product and Reference Implementation Development, but additional requirements are not part of investment decisions. Some participating individuals receive resources from the organizations they represent." .
+
+emm:ToolProductandReferenceImplementationDevelopment_resources_3 a emm:Characterisitic ;
+    emm:maturityScore 3 ;
+    dcterms:isPartOf emm:ToolProductandReferenceImplementationDevelopment_resources ;
+    rdfs:isDefinedBy emm: ;
+    skos:definition "Tool, Product and Reference Implementation Development's relationship to resources is defined and requirements are part of the investment planning process. Most individuals performing work for Tool, Product and Reference Implementation Development are compensated for their effort by the organization they represent." .
+
+emm:ToolProductandReferenceImplementationDevelopment_resources_4 a emm:Characterisitic ;
+    emm:maturityScore 4 ;
+    dcterms:isPartOf emm:ToolProductandReferenceImplementationDevelopment_resources ;
+    rdfs:isDefinedBy emm: ;
+    skos:definition "New resources are made available to increase the maturity of  Tool, Product and Reference Implementation Development. Most work done for Tool, Product and Reference Implementation Development is compensated." .
+
+emm:ToolProductandReferenceImplementationDevelopment_resources_5 a emm:Characterisitic ;
+    emm:maturityScore 5 ;
+    dcterms:isPartOf emm:ToolProductandReferenceImplementationDevelopment_resources ;
+    rdfs:isDefinedBy emm: ;
+    skos:definition "New resources and other innovations that can improve Tool, Product and Reference Implementation Development are investigated, benchmarked, proven, and deployed. All work done towards Tool, Product and Reference Implementation Development is compensated." .
+
+emm:UserBaseGrowth_Information_0 a emm:Characterisitic ;
+    emm:maturityScore 0 ;
+    dcterms:isPartOf emm:UserBaseGrowth_Information ;
+    rdfs:isDefinedBy emm: ;
+    skos:definition "Data/information to support User Base Growth does not exist." .
+
+emm:UserBaseGrowth_Information_1 a emm:Characterisitic ;
+    emm:maturityScore 1 ;
+    dcterms:isPartOf emm:UserBaseGrowth_Information ;
+    rdfs:isDefinedBy emm: ;
+    skos:definition "Information to support User Base Growth is unavailable, unknown, incomplete, incorrect, inconsistent, and not exploited. Minimal descriptive reporting and analytics are performed manually, not used for decision making." .
+
+emm:UserBaseGrowth_Information_2 a emm:Characterisitic ;
+    emm:maturityScore 2 ;
+    dcterms:isPartOf emm:UserBaseGrowth_Information ;
+    rdfs:isDefinedBy emm: ;
+    skos:definition "Information to support User Base Growth is available in silos, hard to locate for others." .
+
+emm:UserBaseGrowth_Information_3 a emm:Characterisitic ;
+    emm:maturityScore 3 ;
+    dcterms:isPartOf emm:UserBaseGrowth_Information ;
+    rdfs:isDefinedBy emm: ;
+    skos:definition "Information governance defines how information for User Base Growth is collected, stored, understood, accessed, owned, and deleted." .
+
+emm:UserBaseGrowth_Information_4 a emm:Characterisitic ;
+    emm:maturityScore 4 ;
+    dcterms:isPartOf emm:UserBaseGrowth_Information ;
+    rdfs:isDefinedBy emm: ;
+    skos:definition "Information for User Base Growth  is available and well understood across the community and externally. Information quality is measured and corrected." .
+
+emm:UserBaseGrowth_Information_5 a emm:Characterisitic ;
+    emm:maturityScore 5 ;
+    dcterms:isPartOf emm:UserBaseGrowth_Information ;
+    rdfs:isDefinedBy emm: ;
+    skos:definition "New information for User Base Growth  is continuously identified and benchmarked." .
+
+emm:UserBaseGrowth_peopleandorganization_0 a emm:Characterisitic ;
+    emm:maturityScore 0 ;
+    dcterms:isPartOf emm:UserBaseGrowth_peopleandorganization ;
+    rdfs:isDefinedBy emm: ;
+    skos:definition "There is no organization for User Base Growth." .
+
+emm:UserBaseGrowth_peopleandorganization_1 a emm:Characterisitic ;
+    emm:maturityScore 1 ;
+    dcterms:isPartOf emm:UserBaseGrowth_peopleandorganization ;
+    rdfs:isDefinedBy emm: ;
+    skos:definition "Community members have a weak understanding of how for User Base Growth with limited skills, training, and poorly defined roles. The community has not allocated community members/working groups for User Base Growth." .
+
+emm:UserBaseGrowth_peopleandorganization_2 a emm:Characterisitic ;
+    emm:maturityScore 2 ;
+    dcterms:isPartOf emm:UserBaseGrowth_peopleandorganization ;
+    rdfs:isDefinedBy emm: ;
+    skos:definition "Community members have some skills for User Base Growth but may be lacking experience or training. Inconsistent roles and responsibilities." .
+
+emm:UserBaseGrowth_peopleandorganization_3 a emm:Characterisitic ;
+    emm:maturityScore 3 ;
+    dcterms:isPartOf emm:UserBaseGrowth_peopleandorganization ;
+    rdfs:isDefinedBy emm: ;
+    skos:definition "Community members have good skills, experience and available training is in place to help User Base Growth. Roles and responsibilities are defined and assigned to members/working groups." .
+
+emm:UserBaseGrowth_peopleandorganization_4 a emm:Characterisitic ;
+    emm:maturityScore 4 ;
+    dcterms:isPartOf emm:UserBaseGrowth_peopleandorganization ;
+    rdfs:isDefinedBy emm: ;
+    skos:definition "Community members have clear roles and responsibilities, have suitable training and are adequately staffed for User Base Growth . Members proactively identify people and organizational improvements and have succession plans in place." .
+
+emm:UserBaseGrowth_peopleandorganization_5 a emm:Characterisitic ;
+    emm:maturityScore 5 ;
+    dcterms:isPartOf emm:UserBaseGrowth_peopleandorganization ;
+    rdfs:isDefinedBy emm: ;
+    skos:definition "Community members have an expert and deeply contextualized understanding of User Base Growth and are working in a culture that supports and actively embraces continuous improvement, benchmarking and innovation." .
+
+emm:UserBaseGrowth_process_0 a emm:Characterisitic ;
+    emm:maturityScore 0 ;
+    dcterms:isPartOf emm:UserBaseGrowth_process ;
+    rdfs:isDefinedBy emm: ;
+    skos:definition "There are no processes for User Base Growth." .
+
+emm:UserBaseGrowth_process_1 a emm:Characterisitic ;
+    emm:maturityScore 1 ;
+    dcterms:isPartOf emm:UserBaseGrowth_process ;
+    rdfs:isDefinedBy emm: ;
+    skos:definition "Little to no process documentation, -governance, or -ownership for User Base Growth. Progress on User Base Growth is based on individual’s knowledge, manual interventions and with unpredictable results." .
+
+emm:UserBaseGrowth_process_2 a emm:Characterisitic ;
+    emm:maturityScore 2 ;
+    dcterms:isPartOf emm:UserBaseGrowth_process ;
+    rdfs:isDefinedBy emm: ;
+    skos:definition "Key processes for User Base Growth  are identified and documented locally. Responsibilities and handoff are poorly understood, and results are inconsistent." .
+
+emm:UserBaseGrowth_process_3 a emm:Characterisitic ;
+    emm:maturityScore 3 ;
+    dcterms:isPartOf emm:UserBaseGrowth_process ;
+    rdfs:isDefinedBy emm: ;
+    skos:definition "Key processes for User Base Growth are documented community wide, ownership is defined, and handoff points established. There is inconsistent adoption, execution, and results." .
+
+emm:UserBaseGrowth_process_4 a emm:Characterisitic ;
+    emm:maturityScore 4 ;
+    dcterms:isPartOf emm:UserBaseGrowth_process ;
+    rdfs:isDefinedBy emm: ;
+    skos:definition "Processes for User Base Growth are defined, understood, reliable, standardized, efficient, measured and adopted community wide with consistent results." .
+
+emm:UserBaseGrowth_process_5 a emm:Characterisitic ;
+    emm:maturityScore 5 ;
+    dcterms:isPartOf emm:UserBaseGrowth_process ;
+    rdfs:isDefinedBy emm: ;
+    skos:definition "Processes for User Base Growth  are continuously reviewed, benchmarked and improved resulting in industry-leading practices and results." .
+
+emm:UserBaseGrowth_resources_0 a emm:Characterisitic ;
+    emm:maturityScore 0 ;
+    dcterms:isPartOf emm:UserBaseGrowth_resources ;
+    rdfs:isDefinedBy emm: ;
+    skos:definition "There are no resources available for User Base Growth . Inivdiduals who do participate in User Base Growth do so voluntarily in their own time." .
+
+emm:UserBaseGrowth_resources_1 a emm:Characterisitic ;
+    emm:maturityScore 1 ;
+    dcterms:isPartOf emm:UserBaseGrowth_resources ;
+    rdfs:isDefinedBy emm: ;
+    skos:definition "Few, if any,  resources, including budget, are assigned for User Base Growth. Some participating individuals receive resources from the organizations they represent." .
+
+emm:UserBaseGrowth_resources_2 a emm:Characterisitic ;
+    emm:maturityScore 2 ;
+    dcterms:isPartOf emm:UserBaseGrowth_resources ;
+    rdfs:isDefinedBy emm: ;
+    skos:definition "Some  resources are identified for User Base Growth, but additional requirements are not part of investment decisions. Some participating individuals receive resources from the organizations they represent." .
+
+emm:UserBaseGrowth_resources_3 a emm:Characterisitic ;
+    emm:maturityScore 3 ;
+    dcterms:isPartOf emm:UserBaseGrowth_resources ;
+    rdfs:isDefinedBy emm: ;
+    skos:definition "User Base Growth's relationship to resources is defined and requirements are part of the investment planning process. Most individuals performing work for User Base Growth are compensated for their effort by the organization they represent." .
+
+emm:UserBaseGrowth_resources_4 a emm:Characterisitic ;
+    emm:maturityScore 4 ;
+    dcterms:isPartOf emm:UserBaseGrowth_resources ;
+    rdfs:isDefinedBy emm: ;
+    skos:definition "New resources are made available to increase the maturity of  User Base Growth. Most work done for User Base Growth is compensated." .
+
+emm:UserBaseGrowth_resources_5 a emm:Characterisitic ;
+    emm:maturityScore 5 ;
+    dcterms:isPartOf emm:UserBaseGrowth_resources ;
+    rdfs:isDefinedBy emm: ;
+    skos:definition "New resources and other innovations that can improve User Base Growth are investigated, benchmarked, proven, and deployed. All work done towards User Base Growth is compensated." .
+
+emm:CommunityFacilitation a emm:Capability ;
+    rdfs:isDefinedBy emm: .
+
+emm:TechnicalAgreements a emm:Capability ;
+    rdfs:isDefinedBy emm: .
+
+emm:CommunityGrowth a emm:Capability ;
+    dcterms:isPartOf emm:CommunityFacilitation ;
+    rdfs:isDefinedBy emm: .
+
+emm:ComplianceTesting a emm:Capability ;
+    dcterms:isPartOf emm:TechnicalAgreements ;
+    rdfs:isDefinedBy emm: .
+
+emm:DiversityofPerspectives a emm:Capability ;
+    dcterms:isPartOf emm:CommunityFacilitation ;
+    rdfs:isDefinedBy emm: .
+
+emm:Implementation a emm:Capability ;
+    rdfs:isDefinedBy emm: .
+
+emm:IntegrationProfileEstablishment a emm:Capability ;
+    dcterms:isPartOf emm:TechnicalAgreements ;
+    rdfs:isDefinedBy emm: .
+
+emm:KnowledgeRetention a emm:Capability ;
+    dcterms:isPartOf emm:CommunityFacilitation ;
+    rdfs:isDefinedBy emm: .
+
+emm:MarketCreation a emm:Capability ;
+    dcterms:isPartOf emm:Implementation ;
+    rdfs:isDefinedBy emm: .
+
+emm:OperationalAlignment a emm:Capability ;
+    dcterms:isPartOf emm:Implementation ;
+    rdfs:isDefinedBy emm: .
+
+emm:Standardization a emm:Capability ;
+    dcterms:isPartOf emm:TechnicalAgreements ;
+    rdfs:isDefinedBy emm: .
+
+emm:ToolProductandReferenceImplementationDevelopment a emm:Capability ;
+    dcterms:isPartOf emm:Implementation ;
+    rdfs:isDefinedBy emm: .
+
+emm:UserBaseGrowth a emm:Capability ;
+    dcterms:isPartOf emm:Implementation ;
+    rdfs:isDefinedBy emm: .
+
+emm:CommunityGrowth_Information a emm:Dimension ;
+    dcterms:isPartOf emm:CommunityGrowth ;
+    rdfs:isDefinedBy emm: .
+
+emm:CommunityGrowth_peopleandorganization a emm:Dimension ;
+    dcterms:isPartOf emm:CommunityGrowth ;
+    rdfs:isDefinedBy emm: .
+
+emm:CommunityGrowth_process a emm:Dimension ;
+    dcterms:isPartOf emm:CommunityGrowth ;
+    rdfs:isDefinedBy emm: .
+
+emm:CommunityGrowth_resources a emm:Dimension ;
+    dcterms:isPartOf emm:CommunityGrowth ;
+    rdfs:isDefinedBy emm: .
+
+emm:ComplianceTesting_Information a emm:Dimension ;
+    dcterms:isPartOf emm:ComplianceTesting ;
+    rdfs:isDefinedBy emm: .
+
+emm:ComplianceTesting_peopleandorganization a emm:Dimension ;
+    dcterms:isPartOf emm:ComplianceTesting ;
+    rdfs:isDefinedBy emm: .
+
+emm:ComplianceTesting_process a emm:Dimension ;
+    dcterms:isPartOf emm:ComplianceTesting ;
+    rdfs:isDefinedBy emm: .
+
+emm:ComplianceTesting_resources a emm:Dimension ;
+    dcterms:isPartOf emm:ComplianceTesting ;
+    rdfs:isDefinedBy emm: .
+
+emm:DiversityofPerspectives_Information a emm:Dimension ;
+    dcterms:isPartOf emm:DiversityofPerspectives ;
+    rdfs:isDefinedBy emm: .
+
+emm:DiversityofPerspectives_peopleandorganization a emm:Dimension ;
+    dcterms:isPartOf emm:DiversityofPerspectives ;
+    rdfs:isDefinedBy emm: .
+
+emm:DiversityofPerspectives_process a emm:Dimension ;
+    dcterms:isPartOf emm:DiversityofPerspectives ;
+    rdfs:isDefinedBy emm: .
+
+emm:DiversityofPerspectives_resources a emm:Dimension ;
+    dcterms:isPartOf emm:DiversityofPerspectives ;
+    rdfs:isDefinedBy emm: .
+
+emm:IntegrationProfileEstablishment_Information a emm:Dimension ;
+    dcterms:isPartOf emm:IntegrationProfileEstablishment ;
+    rdfs:isDefinedBy emm: .
+
+emm:IntegrationProfileEstablishment_peopleandorganization a emm:Dimension ;
+    dcterms:isPartOf emm:IntegrationProfileEstablishment ;
+    rdfs:isDefinedBy emm: .
+
+emm:IntegrationProfileEstablishment_process a emm:Dimension ;
+    dcterms:isPartOf emm:IntegrationProfileEstablishment ;
+    rdfs:isDefinedBy emm: .
+
+emm:IntegrationProfileEstablishment_resources a emm:Dimension ;
+    dcterms:isPartOf emm:IntegrationProfileEstablishment ;
+    rdfs:isDefinedBy emm: .
+
+emm:KnowledgeRetention_Information a emm:Dimension ;
+    dcterms:isPartOf emm:KnowledgeRetention ;
+    rdfs:isDefinedBy emm: .
+
+emm:KnowledgeRetention_peopleandorganization a emm:Dimension ;
+    dcterms:isPartOf emm:KnowledgeRetention ;
+    rdfs:isDefinedBy emm: .
+
+emm:KnowledgeRetention_process a emm:Dimension ;
+    dcterms:isPartOf emm:KnowledgeRetention ;
+    rdfs:isDefinedBy emm: .
+
+emm:KnowledgeRetention_resources a emm:Dimension ;
+    dcterms:isPartOf emm:KnowledgeRetention ;
+    rdfs:isDefinedBy emm: .
+
+emm:MarketCreation_Information a emm:Dimension ;
+    dcterms:isPartOf emm:MarketCreation ;
+    rdfs:isDefinedBy emm: .
+
+emm:MarketCreation_peopleandorganization a emm:Dimension ;
+    dcterms:isPartOf emm:MarketCreation ;
+    rdfs:isDefinedBy emm: .
+
+emm:MarketCreation_process a emm:Dimension ;
+    dcterms:isPartOf emm:MarketCreation ;
+    rdfs:isDefinedBy emm: .
+
+emm:MarketCreation_resources a emm:Dimension ;
+    dcterms:isPartOf emm:MarketCreation ;
+    rdfs:isDefinedBy emm: .
+
+emm:OperationalAlignment_Information a emm:Dimension ;
+    dcterms:isPartOf emm:OperationalAlignment ;
+    rdfs:isDefinedBy emm: .
+
+emm:OperationalAlignment_peopleandorganization a emm:Dimension ;
+    dcterms:isPartOf emm:OperationalAlignment ;
+    rdfs:isDefinedBy emm: .
+
+emm:OperationalAlignment_process a emm:Dimension ;
+    dcterms:isPartOf emm:OperationalAlignment ;
+    rdfs:isDefinedBy emm: .
+
+emm:OperationalAlignment_resources a emm:Dimension ;
+    dcterms:isPartOf emm:OperationalAlignment ;
+    rdfs:isDefinedBy emm: .
+
+emm:Standardization_Information a emm:Dimension ;
+    dcterms:isPartOf emm:Standardization ;
+    rdfs:isDefinedBy emm: .
+
+emm:Standardization_peopleandorganization a emm:Dimension ;
+    dcterms:isPartOf emm:Standardization ;
+    rdfs:isDefinedBy emm: .
+
+emm:Standardization_process a emm:Dimension ;
+    dcterms:isPartOf emm:Standardization ;
+    rdfs:isDefinedBy emm: .
+
+emm:Standardization_resources a emm:Dimension ;
+    dcterms:isPartOf emm:Standardization ;
+    rdfs:isDefinedBy emm: .
+
+emm:ToolProductandReferenceImplementationDevelopment_Information a emm:Dimension ;
+    dcterms:isPartOf emm:ToolProductandReferenceImplementationDevelopment ;
+    rdfs:isDefinedBy emm: .
+
+emm:ToolProductandReferenceImplementationDevelopment_peopleandorganization a emm:Dimension ;
+    dcterms:isPartOf emm:ToolProductandReferenceImplementationDevelopment ;
+    rdfs:isDefinedBy emm: .
+
+emm:ToolProductandReferenceImplementationDevelopment_process a emm:Dimension ;
+    dcterms:isPartOf emm:ToolProductandReferenceImplementationDevelopment ;
+    rdfs:isDefinedBy emm: .
+
+emm:ToolProductandReferenceImplementationDevelopment_resources a emm:Dimension ;
+    dcterms:isPartOf emm:ToolProductandReferenceImplementationDevelopment ;
+    rdfs:isDefinedBy emm: .
+
+emm:UserBaseGrowth_Information a emm:Dimension ;
+    dcterms:isPartOf emm:UserBaseGrowth ;
+    rdfs:isDefinedBy emm: .
+
+emm:UserBaseGrowth_peopleandorganization a emm:Dimension ;
+    dcterms:isPartOf emm:UserBaseGrowth ;
+    rdfs:isDefinedBy emm: .
+
+emm:UserBaseGrowth_process a emm:Dimension ;
+    dcterms:isPartOf emm:UserBaseGrowth ;
+    rdfs:isDefinedBy emm: .
+
+emm:UserBaseGrowth_resources a emm:Dimension ;
+    dcterms:isPartOf emm:UserBaseGrowth ;
+    rdfs:isDefinedBy emm: .
+
