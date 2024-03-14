@@ -125,7 +125,7 @@ Research data should support reproducabiltity and the advancement of knowledge. 
         - Elements of FOAF
         - Elements of [Dublin Core Terms](https://www.dublincore.org/specifications/dublin-core/dcmi-terms/)
         - Elements of [the Orgabization Ontology](https://www.w3.org/TR/vocab-org/)
-        - domain specific terminology that is defined with in artefacts in this repository
+        - Domain specific terminology that is defined with in artefacts in this repository
 - I2: (Meta)data use vocabularies that follow the FAIR principles
     - As the information model is part of this repository, what is stated under this section applies to the information model as well
 - I3: (Meta)data include qualified references to other (meta)data
@@ -144,4 +144,4 @@ Research data should support reproducabiltity and the advancement of knowledge. 
     - the Electrical utility domain, with its use of [CIM/CGMES](https://www.entsoe.eu/data/cim/cim-for-grid-models-exchange/) is not new to RDF.
 
 
-We hope this section gives insight in how we try to uphold the FAIR principles for this dataset. If you have feedback or suggestions on how we can improve this, pleas feel free to raise an [issue](https://github.com/int-net/EminentResultsDatabase/issues)
+We hope this section gives insight in how we try to uphold the FAIR principles for this dataset. If you have feedback or suggestions on how we can improve this, please feel free to raise an [issue](https://github.com/int-net/EminentResultsDatabase/issues).
