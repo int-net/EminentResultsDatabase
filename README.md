@@ -1,10 +1,11 @@
 # EMINENT Results Database
 
-This repository contains the results of EMINENT maturity assessments that have been performed on various interoperability communities. This document will address 2 subjects:
+This repository contains the results of EMINENT maturity assessments that have been performed on various interoperability communities. This document will address the following subjects:
 
 1) How to perform a maturity assessment and add your results to this database
 2) How to perform a maturity tracking assessment
 3) How the contents of this repository are organized and how to use/interpret the data
+4) How we apply the FAIR principles
 
 the maturity assessment survey that produces the results contained in this repository can be found [here](https://ec.europa.eu/eusurvey/runner/Eminent). 
 
@@ -28,7 +29,7 @@ In a nutshell:
 
 The researcher has to options for using the survey. The first is to create an [issue](https://github.com/int-net/EminentResultsDatabase/issues), or contact the [int:net community](https://intnet.eu/) to use the survey published at [EUSurvey](https://ec.europa.eu/eusurvey/runner/Eminent). This is probably the easiest method as the researcher will be able to use the already implemented infrastructure. Members of the int:net community can also help process the data and add the results to this repository.
 
-Alternatively, a researcher may decide to run a separate instance of the survey (that can be found [here](https://github.com/int-net/EminentSurvey)). This might be desirable if the researcher wants access to the raw EUSurvey data, if the results are particularly confidential, or if the researcher wishes to make modifications to the survey (NB. this may make the data incompatilble with the [data processing tooling](https://github.com/int-net/EminentReportingTool) used for this repository).
+Alternatively, a researcher may decide to run a separate instance of the survey (that can be found [here](https://github.com/int-net/EminentSurvey)). This might be desirable if the researcher wants access to the raw EUSurvey data, if the results are particularly confidential, or if the researcher wishes to make modifications to the survey, for instance, if they wish to have more information about the respondents (NB. this may make the data incompatilble with the [data processing tooling](https://github.com/int-net/EminentReportingTool) used for this repository).
 
 #### Submitting result data to this repository
 
@@ -84,3 +85,63 @@ During the int:net project, we found the 3rd option to be most effective. During
 
 
 ## The database and how to use it
+
+
+
+## How we apply the FAIR principles
+
+Research data should support reproducabiltity and the advancement of knowledge. To support this the [GO_FAIR Innitiative](https://www.go-fair.org/go-fair-initiative/) has developed the **F**(indable)**A**(ccessible)**I**(nteroperable)**R**(euseable) principles. In this secion, we'll discuss 1 by one how we have tried to apply them to this data set.
+
+### Findable
+
+- F1: (Meta) data are assigned globally unique and persistent identifiers
+    - Every response, answerset, and questionnaire, as well as the definitions in the information model and the maturity model are identified with a URI
+- F2: Data are described with rich metadata
+    - The data has the following metadata:
+        - To which study the responses belong
+        - Anonymized metadata of the area of expertize of the respondent as well as the area of operation of the organization they represent
+        - which (version of) the questionnaire and questions were used.
+- F3: Metadata clearly and explicitly include the identifier of the data they describe
+    - The use of RDF for the serialization of the data makes this explicit
+- F4: (Meta)data are registered or indexed in a searchable resource
+    - Work in progress (will probably be registerd in [https://data.europa.eu/en](https://data.europa.eu/en))
+
+
+### Accessible
+- A1.1: The protocol is open, free and universally implementable.
+    - The data is stored as RDF
+    - on a github repository that may be cloned/forked
+- A1.2: The protocol allows for an authentication and authorisation procedure where necessary
+    - This dataset contains only open data so reading is open to anyone
+    - If someone wishes to add to (write) the dataset, this is handled through gits merge process
+- A2: Metadata should be accessible even when the data is no longer available
+    - Work in progress
+
+### Interoperable
+- I1: (Meta)data use a formal, accessible, shared, and broadly applicable language for knowledge representation
+    - the information model used is published in this repository and consists of the folling ontolgoies:
+        - A specialization of the [sosa ontology](https://www.w3.org/TR/vocab-ssn/).
+        - Elements of [prov-o](https://www.w3.org/TR/prov-o/)
+        - Elements of FOAF
+        - Elements of [Dublin Core Terms](https://www.dublincore.org/specifications/dublin-core/dcmi-terms/)
+        - Elements of [the Orgabization Ontology](https://www.w3.org/TR/vocab-org/)
+        - domain specific terminology that is defined with in artefacts in this repository
+- I2: (Meta)data use vocabularies that follow the FAIR principles
+    - As the information model is part of this repository, what is stated under this section applies to the information model as well
+- I3: (Meta)data include qualified references to other (meta)data
+    - The use of the above listed ontologies adds meaning to the relationships used in the data.
+
+### Reusable
+- R1: (Meta)data are richly described with a plurality of accurate and relevant attributes
+    - See comments under F3, I1, I2 and I3. Particularly the metadata that is added to each answerset should help users get a sense of what perspective is represented by the answers.
+- R1.1: (Meta)data are released with a clear and accessible data usage license
+    - see the license added to this repository
+- R1.2: (Meta)data are associated with detailed provenance
+    - The use of the prov-o standard should make this more explicit, although the requirement to comply to the [GDPR](https://gdpr-info.eu/) means the ability to traceback answersets to individuals is not supported.
+- R1.3: (Meta)data meet domain-relevant community standards
+    - The use of information standards should simplify the use of this data.
+    - the use of RDF is not necessarily common in the space of questionnaires, a domain in which spreadsheets are the more common format. However tooling has been provided for the most common analysis needs, as well examples of sparql quesries earlier in this document, to convert rdf to CSV based on the users need.
+    - the Electrical utility domain, with its use of [CIM/CGMES](https://www.entsoe.eu/data/cim/cim-for-grid-models-exchange/) is not new to RDF.
+
+
+We hope this section gives insight in how we try to uphold the FAIR principles for this dataset. If you have feedback or suggestions on how we can improve this, pleas feel free to raise an [issue](https://github.com/int-net/EminentResultsDatabase/issues)
