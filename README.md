@@ -81,12 +81,80 @@ During the int:net project, we found the 3rd option to be most effective. During
 
 ## How to perform a maturity tracking assessment
 
+After at least 2 maturity assessments have been performed on the same community (with sufficient time in between the studies), the communtie can request a maturity tracking report. This report summarizes the previous results and summarizes the change in maturity across the capabilities and dimensions over time.
+
+The process to do so looks as follows:
+
 ![Maturity tracking assessment process](/DocumentationResources/ProcessesModels/TrackMaturityProcess/Track%20Maturity%20Process.png)
 
+In a nutshell:
+- the community requests a maturity tracking study
+- a researchers gathers all public and/or confidendial response data
+- the researcher performs a data analysis based on the communties needs and creates a report 
+
+The researcher may have to reject certain older studies if insufficient people participated (as determined by requirements the community expressed for the study) or if the questionnaire changes sufficiently that the answers given previously cannot be compared any longer to answers given in more recent studies. 
+
+---
+
+NB: this is a senario that we intend to avoid for the public survey. But if a survey was modified for a prarticular study, this may become the case.
+
+---
 
 ## The database and how to use it
 
+This database consists of 3 parts:
 
+1) Maturity Model and (over time) its versions
+    - found in ```./EminentMaturityModel/```
+2) The Survey and (over time) its versions
+    - found in ```./EminentQuestionnaire/```
+3) The responses to the questionnaire for all studies
+    - found in ```./EminentResponses/```
+
+These artifacts are published separately as they have a different change cycle. The maturity model and the questionnaire should hardly change over time, but if a change does occur, it might affect the interpretation of the response data. The responses data will change more regurlarly as new studies are being performed.
+
+When these artifacts are combined into a single graph, they jointly paint a picture of the maturity of different communtities that participated in the studies. In this section, well go over informationsmodels (rdfs/owl ontologies) that describe the data in the different artifacts, and in the final part we'll show how all these models fit together.
+
+### EMINENT Maturity Model
+
+![Data model of the maturity model](./DocumentationResources/InformationModels/MaturityModelProfile/Maturity%20Model%20Profile.png)
+
+The maturity model is pretty straight forward.
+
+#### emm:Capability
+
+The emm:Capability class is meant to represent business capabilities as defined in [Archimate](https://pubs.opengroup.org/architecture/archimate3-doc/ch-Strategy-Layer.html). As these can be hierarchical , the dcterms:isPartOf relationsship is used to link sub-capabilities to their super-capabilities. The skos:definition attribute is used to define the capability in human readable format
+
+#### emm:Dimension
+
+Within EMINENT we look at each capability across 4 dimensions:
+- Process
+- People and organization
+- Information
+- Resources
+
+This class represents the individual dimension for each capability. For example: the information Dimension of Community Growth would be an element of this class. The information Dimension of Market Creation would be a different ([owl:differentFrom](https://www.w3.org/TR/2004/REC-owl-features-20040210/#differentFrom)) element in this class.
+
+A dimension is linked to a capability using dcterms:isPartOf, and the human readable definition is given using skos:definition.
+
+#### emm:Characteristic
+
+
+### EMINENT Maturity Assessment 
+
+![Information model of the maturity assessment](./DocumentationResources/InformationModels/QuestionaireProfile/Questionaire%20Profile.png)
+
+
+### EMINENT Responses
+
+![Information model of the EMINENT Responses](./DocumentationResources/InformationModels/AnswersetProfile/Answer%20Set%20Profile.png)
+
+
+### The EMINENT Vocabulary
+
+Combining the different models we have seen so far, we get a picture of what the totality of the information content looks like. This can be found in the diagram below:
+
+![Eminent Vocabulary](./DocumentationResources/InformationModels/EminentVocabulary/Eminent%20Vocabulary.png)
 
 ## How we apply the FAIR principles
 
