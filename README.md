@@ -193,17 +193,84 @@ The ```sosa:usedProcedure``` association is used to link an ```ema:AnswerSet``` 
 
 The ```ema:AnswerSet``` is linked to (anonimous) metadata of the ```foaf:Person``` who prided the answerset through ```prov:wasQuotedFrom```
 
-#### ```foaf:Peron```
+#### ```foaf:Person```
+
+The definition of an individual person conform the Friend Of A Friend speciification.
+
+A ```foaf:Person``` is linked to the organization they represent through the ```prov:actedOnBehalfOf``` relationship. While this database does not contain Peron Identifyable Information (PII), the person is annotated by their area of expertise (expressed using the SGAM model, see below). This information is linked via the ```ema:AreaOfExpertise```
 
 #### ```org:Organization```
 
+[Organziation](https://www.w3.org/TR/vocab-org/#class-organization) as defined by the organization ontology.
+
+To avoid the possibility of identifying the person who answered the question if they represent a small organization (like a self employed consultant for instance), the database only stores some generic information about the organizartion. Notably: the ```ema:desscription``` which has the following possible values:
+
+- Energy Utility
+- Energy Market Party
+- Government
+- Vendor
+- Consultancy
+- Research
+
+The ```ema:organizationSize``` attribute indicates the rough size of the organization, It has the following possible values:
+
+
+- 1-10
+- 11-100
+- 101-500
+- 501-1000
+- 1001-5000
+- more than 5000
+
+The ```ema:sector``` attribute indicates the energy sector the organization is active in. It has the following possible values:
+
+
+
+- Electricity
+- Natural Gas
+- Heat
+- Hydrogen
+- Other
+
+Finally, the ```ema:areaOfOperation``` expresses the area of operation in terms of a ```ema:FocusArea```.
+
+
 #### ```ema:FocusArea```
+
+The ```ema:FocusArea``` class models a focus area (like an area of expertise or an area of operation) in terms of the SGAM model. It has three attributes:
+
+- ```ema:inZone``` contains the SGAM Zones that are part of the focus area. 
+- ```ema:inDomain``` contains the SGAM Domains that are part of the focus area. 
+- ```ema:onLayer``` contains the SGAM Interoperability Layers that are part of the focus area. 
+
 
 #### ```sgam:Zone```
 
+This is the enumeration class that models the SGAM Zones. Possible values are:
+- ```sgam:Process```
+- ```sgam:Field```
+- ```sgam:Operation```
+- ```sgam:Enterprise```
+- ```sgam:Market```
+
 #### ```sgam:Domain```
 
+This is the enumeration class that models the SGAM Domains. Possible values are:
+- ```sgam:CostomerPremises```
+- ```sgam:DER```
+- ```sgam:Distribution```
+- ```sgam:Transmission```
+- ```sgam:Generation```
+
 #### ```sgam:InteroperabilityLayer```
+
+This is the enumeration class that models the SGAM Interoperability Layers. Possible values are:
+- ```sgam:FrameworkLayer```
+- ```sgam:BusinessLayer```
+- ```sgam:FunctionLayer```
+- ```sgam:InformationLayer```
+- ```sgam:ProtocolLayer```
+- ```sgam:ComponentLayer```
 
 
 ### The EMINENT Vocabulary
