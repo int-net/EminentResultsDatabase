@@ -117,15 +117,17 @@ When these artifacts are combined into a single graph, they jointly paint a pict
 
 ### EMINENT Maturity Model
 
+The eminent maturity model contains the Capabilities, Dimensions and Characterisitics that make up the EMINENT Maturity Model (hence the ```emm:``` prefix).
+
 ![Data model of the maturity model](./DocumentationResources/InformationModels/MaturityModelProfile/Maturity%20Model%20Profile.png)
 
 The maturity model is pretty straight forward.
 
-#### emm:Capability
+#### ```emm:Capability```
 
-The emm:Capability class is meant to represent business capabilities as defined in [Archimate](https://pubs.opengroup.org/architecture/archimate3-doc/ch-Strategy-Layer.html). As these can be hierarchical , the dcterms:isPartOf relationsship is used to link sub-capabilities to their super-capabilities. The skos:definition attribute is used to define the capability in human readable format
+The ```emm:Capability``` class is meant to represent business capabilities as defined in [Archimate](https://pubs.opengroup.org/architecture/archimate3-doc/ch-Strategy-Layer.html). As these can be hierarchical , the ```dcterms:isPartOf``` relationsship is used to link sub-capabilities to their super-capabilities. The ```skos:definition``` attribute is used to define the capability in human readable format
 
-#### emm:Dimension
+#### ```emm:Dimension```
 
 Within EMINENT we look at each capability across 4 dimensions:
 - Process
@@ -133,21 +135,73 @@ Within EMINENT we look at each capability across 4 dimensions:
 - Information
 - Resources
 
-This class represents the individual dimension for each capability. For example: the information Dimension of Community Growth would be an element of this class. The information Dimension of Market Creation would be a different ([owl:differentFrom](https://www.w3.org/TR/2004/REC-owl-features-20040210/#differentFrom)) element in this class.
+This class represents the individual dimension for each capability. For example: the information Dimension of Community Growth would be an element of this class. The information Dimension of Market Creation would be a different ([```owl:differentFrom```](https://www.w3.org/TR/2004/REC-owl-features-20040210/#differentFrom)) element in this class.
 
-A dimension is linked to a capability using dcterms:isPartOf, and the human readable definition is given using skos:definition.
+A dimension is linked to a capability using ```dcterms:isPartOf```, and the human readable definition is given using ```skos:definition```.
 
-#### emm:Characteristic
+#### ```emm:Characteristic```
 
+A Characteristic is a description of what a maturiity level for a given dimension and a given capability looks like. This is extpressed as a set of conditions that should be observed before the organization or interoperability community achieves the given level of maturity.
+
+The description is given using ```skos:definition```. The ```ema:maturityScore``` contains the (integer between 0-5) mmatirty score that is associated with that chartacteristic.
 
 ### EMINENT Maturity Assessment 
 
-![Information model of the maturity assessment](./DocumentationResources/InformationModels/QuestionaireProfile/Questionaire%20Profile.png)
+The Eminent Maturity Assessment (hence the ``ema:`` prefix) contains the (machine readable format of the) questionnaire that is used for the interoperability maturity assesments. 
 
+![Information model of the maturity assessment](./DocumentationResources/InformationModels/QuestionaireProfile/Questionaire%20Profile.png
+)
+
+#### ```ema:Questionnaire```
+
+This is the class of questionnaires. In this database, this class will only see 1 instance of this class, ```ema:Eminent```, as all data in this database will be in response to that questionnaire, and all ema:QuestionnaireVersions will be different versions of that questionnaire. 
+
+#### ```ema:QuestionnaireVersion```
+
+This class models the different versions of the questionnaire. Every time changes are made to the questionnaire, it will be published as a ```new ema:QuestionnaireVersion```.
+
+---
+
+NB: By convention (for the purposes of EMINENT) version managament is handled at the questionnaire level. This means that Questions, though phrased differently across versions, will retain their URI and the distinction and difference management is indicated through their relationship to a version of the questionnaire.
+
+---
+
+The identifier that EUSurvey gives to the survey is published under ```dcterms:identifier```. the ```dcat:version``` denotes the version conform [semantic versioning](https://semver.org/) and the version has a title that is published as ```skos:prefLabel```.
+
+#### ```ema:Question```
+
+The ```ema:Question``` class contains the questions in the questionnaire. The human readable identifier is publishded as ```dcterms:identifier```. The way the question is phrased is published under ```ema:phrasing```. The question is associated to the ```emm:Dimension``` it measures through ```ema:measures```. 
 
 ### EMINENT Responses
 
+The Eminent Responses contain the answers that were selected by the interviewees. 
+
 ![Information model of the EMINENT Responses](./DocumentationResources/InformationModels/AnswersetProfile/Answer%20Set%20Profile.png)
+
+#### ```ema:Answer```
+
+The ```ema:Answer``` models the ansers that respondents give to the questionnaire. Answers are connected to the Questions they answer through the ```sosa:usedProcedure``` association. The answer that was selected can be found through the ```sosa:hasResult``` attribute. In the context of this dataset, this will be an ```emm:Characteristic```. In case the description of the ```emm:Characteristic``` changes over time, the original text is stored under ema:resultText. The ```dcterms:isPartOf``` links the Answer to the AnswerSet (see below)
+
+
+#### ```ema:AnswerSet```
+
+The ```ema:AnswerSet``` models the set of answers that an interviewee has given to (a single itteration of) an interiview.
+
+The ```sosa:usedProcedure``` association is used to link an ```ema:AnswerSet``` to the ```ema:QuestionnaireVersion```. 
+
+The ```ema:AnswerSet``` is linked to (anonimous) metadata of the ```foaf:Person``` who prided the answerset through ```prov:wasQuotedFrom```
+
+#### ```foaf:Peron```
+
+#### ```org:Organization```
+
+#### ```ema:FocusArea```
+
+#### ```sgam:Zone```
+
+#### ```sgam:Domain```
+
+#### ```sgam:InteroperabilityLayer```
 
 
 ### The EMINENT Vocabulary
@@ -155,6 +209,8 @@ A dimension is linked to a capability using dcterms:isPartOf, and the human read
 Combining the different models we have seen so far, we get a picture of what the totality of the information content looks like. This can be found in the diagram below:
 
 ![Eminent Vocabulary](./DocumentationResources/InformationModels/EminentVocabulary/Eminent%20Vocabulary.png)
+
+For those interested in linked data intgration, this diagram also shows how the EMINENT information model is alligned with SOSA, FOAF and ORG. 
 
 ## How we apply the FAIR principles
 
