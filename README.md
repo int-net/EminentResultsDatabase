@@ -1,5 +1,7 @@
 # EMINENT Results Database
 
+This work has received funding from the European Union’s Horizon Europe research and innovation programme under grant agreement N°101070086 (int:net).
+
 This repository contains the results of EMINENT maturity assessments that have been performed on various interoperability communities. This document will address the following subjects:
 
 1) How to perform a maturity assessment and add your results to this database
